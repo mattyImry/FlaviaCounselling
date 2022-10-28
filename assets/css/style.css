@@ -6,6 +6,7 @@
 
 body {
     font-family: cursive;
+
 }
 
 a {
@@ -66,6 +67,32 @@ input[type=checkbox] {
     user-select: none;
 }
 
+/*Footer*/
+
+.footer,
+.sub-footer {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: teal;
+    color: #fff;
+    gap: 1em;
+}
+
+.hcpc {
+    width: 80px;
+}
+
+
+
+
+
+
+
+
+
 
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {
@@ -92,4 +119,12 @@ input[type=checkbox] {
         display: block;
     }
 
+
+
+}
+
+@media (max-width: 373px) {
+    .item-sb {
+        font-size: 12px;
+    }
 }
