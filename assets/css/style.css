@@ -67,7 +67,11 @@ input[type=checkbox] {
     user-select: none;
 }
 
-/*Footer*/
+.main-banner {
+    height: 700px;
+}
+
+/*FOOTER*/
 
 .footer,
 .sub-footer {
