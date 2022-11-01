@@ -71,6 +71,38 @@ input[type=checkbox] {
     height: 700px;
 }
 
+
+/* CONTACT PAGE */
+
+.main-contact {
+    text-align: center;
+}
+
+.inform {
+    display: flex;
+    align-items: center;
+}
+
+.form-p2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form-booking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.lname-input,
+.name-input {
+    float: left;
+}
+
 /*FOOTER*/
 
 .footer,

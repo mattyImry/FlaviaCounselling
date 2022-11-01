@@ -29,8 +29,30 @@
             </div>
         </ul>
     </nav>
-    <div class="main-banner">
+    <div class="main-contact">
         <h1 class="main-title">Contact</h1>
+
+
+
+        <form class="form-booking" id="contact-form" onsubmit="return sendMail(this);">
+            <div class="inform">
+                <input type="text" class="name-input namebox" id="name" name="name" placeholder="Name" required />
+                <input type="text" class="lname-input namebox" id="lname" name="lname" placeholder="LName" required />
+            </div>
+            <div class="form-p2">
+                <input type="email" class="form-control emailbox" name="emailaddress" id="exampleInputEmail1"
+                    placeholder="Enter email" required />
+                <input type="text" class="form-control subjectbox" name="subject" id="exampleInputSubject1"
+                    placeholder="Subject" required />
+                <textarea class="form-control messagebox" name="message" id="exampleFormControlTextarea1" rows="4"
+                    placeholder="Message" required></textarea>
+                <div class="container-fluid d-flex justify-content-center ">
+                    <button type="submit" value="Submit" class="btn btn-submit">Submit</button>
+                </div>
+            </div>
+
+        </form>
+
     </div>
     <div class="footer">
 
