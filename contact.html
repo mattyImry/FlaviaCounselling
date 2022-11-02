@@ -32,25 +32,29 @@
     <div class="main-contact">
         <h1 class="main-title">Contact</h1>
 
-
-
         <form class="form-booking" id="contact-form" onsubmit="return sendMail(this);">
-            <div class="inform">
-                <input type="text" class="name-input namebox" id="name" name="name" placeholder="Name" required />
-                <input type="text" class="lname-input namebox" id="lname" name="lname" placeholder="LName" required />
+            <input type="text" class="name-input namebox" id="name" name="name" placeholder="Full Name *" required />
+            <input type="email" class="emailbox" name="emailaddress" id="exampleInputEmail1" placeholder="Email *"
+                required />
+            <textarea class="messagebox" name="message" id="exampleFormControlTextarea1" rows="4"
+                placeholder="Message *" required></textarea>
+            <div class="question-form">
+                <p class="q1">Are you using private healthcare insurance? *</p>
+                <select name="insurances" id="insurances" class="drop-contact" required>
+                    <option value="select">Please select:</option>
+                    <option value="aviva">Aviva</option>
+                    <option value="bupa">Bupa</option>
+                    <option value="axa">Axa</option>
+                    <option value="cigna">Cigna</option>
+                    <option value="vitality">Vitality</option>
+                    <option value="simply">Simply Health</option>
+                    <option value="wpa">Wpa</option>
+                    <option value="self">Self-funding</option>
+                </select>
             </div>
-            <div class="form-p2">
-                <input type="email" class="form-control emailbox" name="emailaddress" id="exampleInputEmail1"
-                    placeholder="Enter email" required />
-                <input type="text" class="form-control subjectbox" name="subject" id="exampleInputSubject1"
-                    placeholder="Subject" required />
-                <textarea class="form-control messagebox" name="message" id="exampleFormControlTextarea1" rows="4"
-                    placeholder="Message" required></textarea>
-                <div class="container-fluid d-flex justify-content-center ">
-                    <button type="submit" value="Submit" class="btn btn-submit">Submit</button>
-                </div>
+            <div class="button">
+                <button type="submit" value="Submit" class="btn-submit">Submit</button>
             </div>
-
         </form>
 
     </div>
