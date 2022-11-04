@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -54,7 +57,8 @@ li {
 
 /*RESPONSIVE NAVBAR MENU STARTS*/
 /* CHECKBOX HACK */
-input[type=checkbox] {
+
+.check {
     display: none;
 }
 
@@ -72,36 +76,49 @@ input[type=checkbox] {
 
 /* CONTACT PAGE */
 
-.main-contact {
+.main-title {
     text-align: center;
 }
 
-.inform {
-    display: flex;
-    align-items: center;
-}
-
-.form-p2 {
-    display: flex;
-    flex-direction: column;
-
-    flex-wrap: wrap;
+.form-container {
+    width: 100%;
+    align-content: center;
 }
 
 .form-booking {
     display: flex;
     flex-direction: column;
-    align-items: center;
     flex-wrap: wrap;
+    align-items: center;
+
+
 }
 
 .name-input,
 .emailbox,
-.messagebox {
+.messagebox,
+.over18,
+.question-form,
+.button {
     width: 50%;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+
 
 }
 
+select,
+.btn-submit {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    padding: 4px
+}
+
+/* .question-form {
+    display: flex;
+    flex-direction: column;
+
+} */
 
 
 
@@ -122,15 +139,6 @@ input[type=checkbox] {
 .hcpc {
     width: 70px;
 }
-
-
-
-
-
-
-
-
-
 
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {

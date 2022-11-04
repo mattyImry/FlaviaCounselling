@@ -17,7 +17,7 @@
         <!-- NAVIGATION MENU -->
         <ul class="nav-links">
             <!-- USING CHECKBOX HACK -->
-            <input type="checkbox" id="checkbox_toggle" />
+            <input type="checkbox" id="checkbox_toggle" class="check" />
             <label for="checkbox_toggle" class="hamburger">&#9776;</label>
             <!-- NAVIGATION MENUS -->
             <div class="menu">
@@ -32,30 +32,42 @@
     <div class="main-contact">
         <h1 class="main-title">Contact</h1>
 
-        <form class="form-booking" id="contact-form" onsubmit="return sendMail(this);">
-            <input type="text" class="name-input namebox" id="name" name="name" placeholder="Full Name *" required />
-            <input type="email" class="emailbox" name="emailaddress" id="exampleInputEmail1" placeholder="Email *"
-                required />
-            <textarea class="messagebox" name="message" id="exampleFormControlTextarea1" rows="4"
-                placeholder="Message *" required></textarea>
-            <div class="question-form">
-                <p class="q1">Are you using private healthcare insurance? *</p>
-                <select name="insurances" id="insurances" class="drop-contact" required>
-                    <option value="select">Please select:</option>
-                    <option value="aviva">Aviva</option>
-                    <option value="bupa">Bupa</option>
-                    <option value="axa">Axa</option>
-                    <option value="cigna">Cigna</option>
-                    <option value="vitality">Vitality</option>
-                    <option value="simply">Simply Health</option>
-                    <option value="wpa">Wpa</option>
-                    <option value="self">Self-funding</option>
-                </select>
-            </div>
-            <div class="button">
-                <button type="submit" value="Submit" class="btn-submit">Submit</button>
-            </div>
-        </form>
+        <div class="form-container">
+            <form class="form-booking" id="contact-form" onsubmit="return sendMail(this);">
+                <input type="text" class="name-input namebox" id="name" name="name" placeholder="Full Name *"
+                    required />
+                <input type="email" class="emailbox" name="emailaddress" id="exampleInputEmail1" placeholder="Email *"
+                    required />
+                <textarea class="messagebox" name="message" id="exampleFormControlTextarea1" rows="4"
+                    placeholder="Message *" required></textarea>
+
+                <div class="question-form">
+                    <label class="q1">Are you using private healthcare insurance? *</label>
+                    <select name="insurances" id="insurances" class="drop-contact" required>
+                        <option value="select">Please select:</option>
+                        <option value="aviva">Aviva</option>
+                        <option value="bupa">Bupa</option>
+                        <option value="axa">Axa</option>
+                        <option value="cigna">Cigna</option>
+                        <option value="vitality">Vitality</option>
+                        <option value="simply">Simply Health</option>
+                        <option value="wpa">Wpa</option>
+                        <option value="self">Self-funding</option>
+                    </select>
+                </div>
+                <div class="over18">
+                    <label for="over 18"> Are you over18?</label>
+                    <input type="checkbox" id="over18" name="over18" value="age">
+                </div>
+
+
+
+                <div class="button">
+                    <button type="submit" value="Submit" class="btn-submit">Submit</button>
+                </div>
+
+            </form>
+        </div>
 
     </div>
     <div class="footer">
