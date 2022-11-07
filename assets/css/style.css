@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
 
+
+:root {
+    --nav-bg-color: #bbc8ca;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -25,7 +30,7 @@ li {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: teal;
+    background-color: var(--nav-bg-color, teal);
     color: #fff;
 }
 
@@ -90,8 +95,6 @@ li {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-
-
 }
 
 .name-input,
@@ -103,8 +106,6 @@ li {
     width: 50%;
     margin: 20px;
     font-family: 'Montserrat', sans-serif;
-
-
 }
 
 select,
@@ -113,14 +114,6 @@ select,
     border-radius: 5px;
     padding: 4px
 }
-
-/* .question-form {
-    display: flex;
-    flex-direction: column;
-
-} */
-
-
 
 /*FOOTER*/
 
@@ -131,7 +124,7 @@ select,
     align-content: center;
     justify-content: center;
     padding: 20px;
-    background-color: teal;
+    background-color: #bbc8ca;
     color: #fff;
     gap: 1em;
 }
@@ -140,7 +133,7 @@ select,
     width: 70px;
 }
 
-/* APPLYING MEDIA QUERIES */
+/*MEDIA QUERIES */
 @media (max-width: 768px) {
     .menu {
         display: none;
@@ -165,12 +158,16 @@ select,
         display: block;
     }
 
-
-
 }
 
 @media (max-width: 373px) {
     .item-sb {
         font-size: 12px;
+    }
+}
+
+@media (max-width: 979px) {
+    select {
+        margin-top: 5px;
     }
 }
