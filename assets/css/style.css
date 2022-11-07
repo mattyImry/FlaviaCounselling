@@ -3,6 +3,11 @@
 
 :root {
     --nav-bg-color: #bbc8ca;
+    --sec-bg-color: #c7ffed;
+    --hover-color: #b592A0;
+    --link-color: #fafafa;
+
+
 }
 
 * {
@@ -31,11 +36,11 @@ li {
     justify-content: space-between;
     padding: 20px;
     background-color: var(--nav-bg-color, teal);
-    color: #fff;
+    color: var(--link-color, #fff);
 }
 
 .nav-links a {
-    color: #fff;
+    color: var(--link-color, #fff);
 }
 
 /* LOGO */
@@ -50,14 +55,21 @@ li {
     font-size: 18px;
 }
 
-.menu li:hover {
-    background-color: #4c9e9e;
+.menu li:hover,
+.footer li:hover,
+.sub-footer li:hover {
+    background-color: var(--hover-color);
     border-radius: 5px;
     transition: 0.3s ease;
 }
 
 .menu li {
     padding: 5px 14px;
+}
+
+.footer li,
+.sub-footer li {
+    padding: 5px;
 }
 
 /*RESPONSIVE NAVBAR MENU STARTS*/
@@ -124,8 +136,8 @@ select,
     align-content: center;
     justify-content: center;
     padding: 20px;
-    background-color: #bbc8ca;
-    color: #fff;
+    background-color: var(--nav-bg-color, teal);
+    color: var(--link-color, #fff);
     gap: 1em;
 }
 
@@ -138,15 +150,15 @@ select,
     .menu {
         display: none;
         position: absolute;
-        background-color: teal;
+        background-color: var(--nav-bg-color, teal);
         right: 0px;
         text-align: center;
         padding: 16px 0;
     }
 
     .menu li:hover {
-        display: inline-block;
-        background-color: #4c9e9e;
+        background-color: var(--hover-color, );
+        border-radius: 5px;
         transition: 0.3s ease;
     }
 
@@ -158,12 +170,26 @@ select,
         display: block;
     }
 
+
+
 }
 
-@media (max-width: 373px) {
+@media (max-width: 449px) {
     .item-sb {
         font-size: 12px;
     }
+
+    .footer li,
+    .sub-footer li {
+        padding: 0px;
+    }
+}
+
+@media (max-width: 332px) {
+    .item-sb {
+        font-size: 11px;
+    }
+
 }
 
 @media (max-width: 979px) {
