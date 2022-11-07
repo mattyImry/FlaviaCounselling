@@ -1,23 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
 
-
-:root {
-    --nav-bg-color: #bbc8ca;
-    --sec-bg-color: #c7ffed;
-    --hover-color: #b592A0;
-    --link-color: #fafafa;
-
-
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+:root {
+    --nav-bg-color: #bbc8ca;
+    --sec-bg-color: #c7ffed;
+    --hover-color: #b592A0;
+    --link-color: #fafafa;
+    --main-font: 'Montserrat';
+}
+
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--main-font, sans-serif);
 }
 
 a {
@@ -27,7 +25,6 @@ a {
 li {
     list-style: none;
 }
-
 
 /* NAVBAR STYLING STARTS */
 .navbar {
@@ -112,17 +109,18 @@ li {
 .name-input,
 .emailbox,
 .messagebox,
+.phone,
 .over18,
 .question-form,
 .button {
     width: 50%;
     margin: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--main-font, sans-serif);
 }
 
 select,
 .btn-submit {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--main-font, sans-serif);
     border-radius: 5px;
     padding: 4px
 }
@@ -169,8 +167,6 @@ select,
     .hamburger {
         display: block;
     }
-
-
 
 }
 
