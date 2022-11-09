@@ -96,7 +96,7 @@ li {
 
 .main-contact {
     background-color: var(--sec-bg-color);
-    height: 800px;
+    height: 1200px;
 }
 
 .form-container {
@@ -131,8 +131,15 @@ select,
 }
 
 #map {
-    height: 100%;
+    height: 50%;
+    width: 50%;
 }
+
+.map-div {
+    margin-left: 100px;
+}
+
+
 
 /*FOOTER*/
 

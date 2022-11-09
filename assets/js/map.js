@@ -5,12 +5,12 @@ var service;
 var infowindow;
 
 function initMap() {
-  var sydney = new google.maps.LatLng(-33.867, 151.195);
+  var practice_fla = new google.maps.LatLng(51.5254613304083, -0.09635282977019068);
 
   infowindow = new google.maps.InfoWindow();
 
   map = new google.maps.Map(
-      document.getElementById('map'), {center: sydney, zoom: 15});
+      document.getElementById('map'), {center: practice_fla, zoom: 15});
 
   var request = {
     query: 'Museum of Contemporary Art Australia',
