@@ -130,6 +130,10 @@ select,
     padding: 4px
 }
 
+#map {
+    height: 100%;
+}
+
 /*FOOTER*/
 
 .footer,
