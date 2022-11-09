@@ -1,4 +1,3 @@
-
 function sendMail(contactForm) {
     emailjs.send("on_line_psycology", "contact_fcigolla",{
         "from_name": contactForm.name.value,
