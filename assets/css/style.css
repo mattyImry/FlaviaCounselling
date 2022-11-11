@@ -187,14 +187,20 @@ select,
 }
 
 @media (max-width: 449px) {
+
     .item-sb {
         font-size: 12px;
+    }
+
+    .infowindow {
+        font-size: 10px;
     }
 
     .footer li,
     .sub-footer li {
         padding: 0px;
     }
+
 }
 
 @media (max-width: 332px) {
