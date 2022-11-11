@@ -10,7 +10,7 @@ function initMap() {
         
     const contentString = `<h4> Dr. Flavia Cigolla  </h4>` ;
         
-    const marker = google.maps.Marker({
+    const marker = new google.maps.Marker({
         position: practice_fla,
         map,
         title: "Dr Flavia Cigolla",
@@ -41,4 +41,4 @@ function initMap() {
 //   });
 }
 
-window.initMap = initMap;
+// window.initMap = initMap;
