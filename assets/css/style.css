@@ -133,7 +133,8 @@ select,
 
 .cont {
     display: flex;
-    height: 100%;
+    height: 60%;
+    margin-top: 20px;
 
 }
 
@@ -151,6 +152,8 @@ select,
     text-align: left;
     height: 100%;
     padding-left: 50px;
+    padding-top: 50px;
+
 
 }
 
@@ -233,6 +236,7 @@ select,
 
     #map {
         height: 35%;
+        margin-top: 20px;
     }
 
     .map-div {
@@ -247,6 +251,7 @@ select,
 
     .contact-info {
         padding-left: 0;
+        padding-top: 50px;
     }
 }
 
