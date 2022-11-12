@@ -143,13 +143,29 @@ select,
 }
 
 .map-div {
-    margin-left: 100px;
-    display: inline-block;
+    margin-left: 15%;
+
 }
 
 .contact-info {
-    display: inline-block;
+    text-align: left;
     height: 100%;
+    padding-left: 50px;
+
+}
+
+.list-item {
+    padding-top: 15px;
+    text-align: center;
+
+}
+
+.list-item .list-text {
+    font-weight: bold;
+}
+
+.fa-solid {
+    margin-right: 10px;
 
 }
 
@@ -217,6 +233,20 @@ select,
 
     #map {
         height: 35%;
+    }
+
+    .map-div {
+        margin-left: 25%;
+
+    }
+
+    .cont {
+        flex-direction: column;
+
+    }
+
+    .contact-info {
+        padding-left: 0;
     }
 }
 
