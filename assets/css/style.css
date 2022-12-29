@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 :root {
@@ -18,6 +19,7 @@ body {
     font-family: var(--main-font, sans-serif);
 }
 
+
 a {
     text-decoration: none;
 }
@@ -28,6 +30,7 @@ li {
 
 
 /* NAVBAR STYLING STARTS */
+
 .navbar {
     display: flex;
     align-items: center;
@@ -42,11 +45,13 @@ li {
 }
 
 /* LOGO */
+
 .logo {
     font-size: 32px;
 }
 
 /* NAVBAR MENU */
+
 .menu {
     display: flex;
     gap: 1em;
@@ -78,6 +83,7 @@ li {
 }
 
 /*HAMBURGER MENU*/
+
 .hamburger {
     display: none;
     font-size: 24px;
@@ -89,17 +95,42 @@ li {
 
 .img-home-bg {
     width: 100%;
+    height: 100%;
 }
 
 .main-banner {
     position: relative;
+    font-size: 0;
 }
 
 .main-text {
     position: absolute;
     top: 100px;
     left: 100px;
+    font-size: 32px;
 }
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome-text h1 {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    
+}
+
+.welcome-text p {
+    padding: 50px;
+}
+
+.img-welcome {
+    width: 50%;
+}
+
 
 
 /* CONTACT PAGE */
@@ -166,8 +197,6 @@ select,
     height: 100%;
     padding-left: 50px;
     padding-top: 50px;
-
-
 }
 
 .list-item {
@@ -184,8 +213,6 @@ select,
     margin-right: 10px;
 
 }
-
-
 
 /*FOOTER*/
 
@@ -298,7 +325,6 @@ select,
     }
 
     .main-text {
-        font-size: 15px;
         top: 25px;
         left: 30px;
 
