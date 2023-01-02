@@ -119,12 +119,19 @@ li {
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 40px;
+    padding-top: 100px;
     
 }
 
-.welcome-text p {
-    padding: 50px;
+.welcome-text h3 {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    line-height: 30px;
+    font-weight: 900;
+    
+
 }
 
 .img-welcome {
@@ -234,9 +241,20 @@ select,
 
 /*MEDIA QUERIES */
 
+@media (max-width: 1200px) {
+    .welcome-text h1 {
+        padding-top: 60px;
+    }
+}
+
+
 @media (max-width: 979px) {
     select {
         margin-top: 5px;
+    }
+
+    .welcome-text h1 {
+        padding-top: 40px;
     }
 }
 
@@ -266,6 +284,14 @@ select,
 
 }
 
+@media (max-width: 604px) {
+    .img-welcome {
+        display: none;
+    }
+}
+
+@media (max-width: 504px) {
+
 @media (max-width: 504px) {
 
     .gm-control-active,
@@ -277,7 +303,10 @@ select,
         font-size: 15px;
         top: 50px;
         left: 50px;
+    }
 
+    .welcome-text h3,  {
+        font-size: 15px;
     }
 }
 
@@ -315,6 +344,8 @@ select,
         padding-left: 0;
         padding-top: 50px;
     }
+
+
 
 }
 
