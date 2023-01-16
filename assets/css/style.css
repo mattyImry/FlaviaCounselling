@@ -288,6 +288,18 @@ select,
     }
 }
 
+@media (max-width: 932px ){
+    .hi {
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+    
+    .hi img {
+        width: 100%;
+    }
+
+}
+
 @media (max-width: 768px) {
     .menu {
         display: none;
@@ -321,21 +333,21 @@ select,
         padding-bottom: 15px;
         font-size: 18px;
     }
-
+    
 }
 
 @media (max-width: 604px) {
     .img-welcome {
         display: none;
     }
-    .hi {
+    /* .hi {
         justify-content: space-between;
         flex-direction: column-reverse;
     }
     
     .hi img {
         width: 100%;
-    }
+    } */
 }
 
 @media (max-width: 504px) {
