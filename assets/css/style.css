@@ -111,11 +111,12 @@ li {
 }
 
 .welcome {
+    text-align: center;
     display: flex;
     justify-content: space-between;
 }
 
-.welcome-text h1 {
+.welcome-text h1{
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
@@ -131,14 +132,42 @@ li {
     padding-bottom: 40px;
     line-height: 30px;
     font-weight: 900;
-    
-
 }
 
 .img-welcome {
     width: 50%;
 }
 
+.hi {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hi-text h1 {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 35px;
+}
+
+.hi-text h3 {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    line-height: 30px;
+    font-weight: 900;
+}
+.hi img {
+    width: 50%;
+}
+
+.img-value {
+    max-height: 50%;
+    width: 100%;
+}
 
 
 /* CONTACT PAGE */
@@ -283,11 +312,29 @@ select,
         display: block;
     }
 
+    .hi-text h1 {
+        padding-top: 15px;
+    }
+
+    .hi-text h3 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 18px;
+    }
+
 }
 
 @media (max-width: 604px) {
     .img-welcome {
         display: none;
+    }
+    .hi {
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+    
+    .hi img {
+        width: 100%;
     }
 }
 
@@ -308,12 +355,12 @@ select,
         background-color: #b592A0;
     }
 
-    .welcome-text h1 {
+    .welcome-text h1, .hi-text h1 {
         font-size: 22px;
     }
-    .welcome-text h3 {
-        padding-top: 20px;
-        padding-bottom: 20px;
+    .welcome-text h3, .hi-text h3 {
+        padding-top: 15px;
+        padding-bottom: 15px;
         font-size: 15px;
     }
 
