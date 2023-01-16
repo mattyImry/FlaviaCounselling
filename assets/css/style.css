@@ -173,6 +173,27 @@ li {
     padding-bottom: 10px;
 }
 
+.therapy {
+    text-align: center;
+}
+
+.therapy-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.therapy-icons div {
+    flex-grow: 1;
+    flex-shrink: 0;
+	flex-basis: calc(25% - 10px);
+    
+}
+
+.therapy-icons img {
+    width: 15%;
+}
+
 
 /* CONTACT PAGE */
 
@@ -349,6 +370,10 @@ select,
         display: none;
     }
     
+    /* .therapy-icons div {
+        
+        flex-grow: 0;
+    }    */
 }
 
 @media (max-width: 504px) {
