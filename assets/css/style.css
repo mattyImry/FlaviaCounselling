@@ -169,6 +169,10 @@ li {
     width: 100%;
 }
 
+.div-btn-me {
+    padding-bottom: 10px;
+}
+
 
 /* CONTACT PAGE */
 
@@ -206,10 +210,14 @@ li {
 }
 
 select,
-.btn-submit {
+.btn-submit,
+.btn-about-me {
     font-family: var(--main-font, sans-serif);
-    border-radius: 5px;
-    padding: 4px
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid ;
+    padding: 4px;
+    
 }
 
 .cont {
@@ -340,14 +348,7 @@ select,
     .img-welcome {
         display: none;
     }
-    /* .hi {
-        justify-content: space-between;
-        flex-direction: column-reverse;
-    }
     
-    .hi img {
-        width: 100%;
-    } */
 }
 
 @media (max-width: 504px) {
