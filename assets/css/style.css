@@ -162,34 +162,34 @@ li {
     padding-bottom: 10px;
 }
 
-.therapy {
+.experties {
     text-align: center;
 }
 
-.therapy h1 {
+.experties h1 {
     padding: 20px 0 20px 0;
 }
 
-.therapy-icons {
+.experties-icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
    
 }
 
-.therapy-icons img {
+.modalOpen img {
     width: 15%;
 }
 
-.therapy-icons p {
+.experties-icons p {
     font-weight: 700;
     padding-top: 2px;
 }
 
-.therapy-icons div{
+.experties-icons div{
     padding-bottom: 20px;
 }
 
-/* MODAL FOR THERAPY SECTION */
+/* MODAL FOR EXPETIES SECTION */
 
 .modal {
     display: none;
@@ -405,7 +405,7 @@ select,
         display: none;
     }
 
-    .therapy-icons {
+    .experties-icons {
         display: grid;
         grid-template-columns: 1fr 1fr ;
     }
@@ -484,7 +484,7 @@ select,
         left: 30px;
     }
 
-    .therapy-icons {
+    .experties-icons {
         display: grid;
         grid-template-columns: 1fr ;
     }
