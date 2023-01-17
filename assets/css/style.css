@@ -118,18 +118,12 @@ li {
 
 .welcome-text h1{
     text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 100px;
-    
+    padding: 100px 40px 0 40px;    
 }
 
 .welcome-text h3 {
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 50px 40px 50px;
     line-height: 30px;
     font-weight: 900;
 }
@@ -146,17 +140,12 @@ li {
 
 .hi-text h1 {
     text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 35px;
+    padding: 35px 40px 0 40px;
 }
 
 .hi-text h3 {
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 50px 40px 50px;
     line-height: 30px;
     font-weight: 900;
 }
@@ -177,6 +166,10 @@ li {
     text-align: center;
 }
 
+.therapy h1 {
+    padding: 20px 0 20px 0;
+}
+
 .therapy-icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -185,6 +178,15 @@ li {
 
 .therapy-icons img {
     width: 15%;
+}
+
+.therapy-icons p {
+    font-weight: 700;
+    padding-top: 2px;
+}
+
+.therapy-icons div{
+    padding-bottom: 20px;
 }
 
 
@@ -299,14 +301,13 @@ select,
     }
 }
 
-
 @media (max-width: 979px) {
     select {
         margin-top: 5px;
     }
 
     .welcome-text h1 {
-        padding-top: 35px;
+        padding-top: 30px;
     }
 }
 
@@ -355,9 +356,11 @@ select,
         padding-bottom: 15px;
         font-size: 18px;
     }
-    
-}
 
+    .welcome-text h3 {
+        padding-top: 30px;
+    }
+}
 @media (max-width: 604px) {
     .img-welcome {
         display: none;
@@ -420,12 +423,10 @@ select,
 
     .map-div {
         margin-left: 25%;
-
     }
 
     .cont {
         flex-direction: column;
-
     }
 
     .contact-info {
@@ -448,6 +449,4 @@ select,
         display: grid;
         grid-template-columns: 1fr ;
     }
-
-    
 }
