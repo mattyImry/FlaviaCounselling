@@ -240,8 +240,23 @@ li {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
+.therapy-type div {
+  position: relative;
+  text-align: center;
+}
+
+.therapy-type div p {
+  text-align: center;
+  position: absolute;
+  bottom: 8px;
+  z-index: 1;
+  color: #fafafa;
+  font-weight: 500;
+}
+
 .therapy-type div img {
   width: 100%;
+  filter: brightness(50%);
 }
 
 /* CONTACT PAGE */
@@ -408,6 +423,10 @@ select,
   .welcome-text h3 {
     padding-top: 30px;
   }
+
+  .therapy-type div p {
+    font-size: 12px;
+  }
 }
 @media (max-width: 604px) {
   .img-welcome {
@@ -430,8 +449,12 @@ select,
 
   .emdr img {
     position: relative;
-    left: 25%;
     width: 50% !important;
+  }
+
+  .emdr p {
+    position: relative !important;
+    bottom: 8px !important;
   }
 }
 
