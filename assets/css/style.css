@@ -238,6 +238,7 @@ li {
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: rgb(226, 186, 186);
 }
 
 .therapy-type div {
@@ -246,18 +247,53 @@ li {
 }
 
 .therapy-type div p {
-  text-align: center;
   position: absolute;
-  bottom: 8px;
-  z-index: 1;
+  z-index: 20;
   color: #fafafa;
   font-weight: 500;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  padding-top: 10px;
 }
 
 .therapy-type div img {
   width: 100%;
+
   filter: brightness(50%);
 }
+
+/* .cbt {
+  background-image: url(/assets/images/cbt.jpg);
+  background-repeat: no-repeat;
+  filter: brightness(50%);
+}
+
+.act {
+  background-image: url(/assets/images/act.jpg);
+  background-repeat: no-repeat;
+  filter: brightness(50%);
+}
+
+.cft {
+  background-image: url(/assets/images/cft.jpg);
+  background-repeat: no-repeat;
+  filter: brightness(50%);
+}
+
+.dit {
+  background-image: url(/assets/images/dit.jpg);
+  background-repeat: no-repeat;
+  filter: brightness(50%);
+}
+
+.emdr {
+  background-image: url(/assets/images/emdr.jpg);
+  background-repeat: no-repeat;
+  filter: brightness(50%);
+} */
 
 /* CONTACT PAGE */
 
@@ -425,7 +461,7 @@ select,
   }
 
   .therapy-type div p {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 @media (max-width: 604px) {
@@ -450,11 +486,6 @@ select,
   .emdr img {
     position: relative;
     width: 50% !important;
-  }
-
-  .emdr p {
-    position: relative !important;
-    bottom: 8px !important;
   }
 }
 
