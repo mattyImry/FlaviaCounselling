@@ -477,12 +477,7 @@ select,
   }
 
   .emdr {
-    grid-column: 1 / -1;
-  }
-
-  .emdr img {
-    position: relative;
-    width: 50% !important;
+    left: 50%;
   }
 }
 
@@ -567,8 +562,7 @@ select,
     grid-template-columns: 1fr;
   }
 
-  .emdr img {
-    width: 100% !important;
+  .emdr {
     left: 0;
   }
 }
