@@ -150,8 +150,15 @@ li {
   width: 50%;
 }
 
+.value {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
 .img-value {
-  max-height: 50%;
+  flex: 1;
   width: 100%;
 }
 
