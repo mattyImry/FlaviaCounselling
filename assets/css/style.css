@@ -272,35 +272,25 @@ li {
   filter: brightness(50%);
 }
 
-/* .cbt {
-  background-image: url(/assets/images/cbt.jpg);
-  background-repeat: no-repeat;
-  filter: brightness(50%);
-}
-
-.act {
-  background-image: url(/assets/images/act.jpg);
-  background-repeat: no-repeat;
-  filter: brightness(50%);
-}
-
-.cft {
-  background-image: url(/assets/images/cft.jpg);
-  background-repeat: no-repeat;
-  filter: brightness(50%);
-}
-
-.dit {
-  background-image: url(/assets/images/dit.jpg);
-  background-repeat: no-repeat;
-  filter: brightness(50%);
-}
-
+.cbt,
+.act,
+.cft,
+.dit,
 .emdr {
-  background-image: url(/assets/images/emdr.jpg);
-  background-repeat: no-repeat;
-  filter: brightness(50%);
-} */
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.cbt img,
+.act img,
+.cft img,
+.dit img,
+.emdr img {
+  flex: 1;
+  width: 100%;
+}
 
 /* CONTACT PAGE */
 
