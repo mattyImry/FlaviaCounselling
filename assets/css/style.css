@@ -232,8 +232,11 @@ li {
   cursor: pointer;
 }
 
+/* THERAPIES SECTION */
+
 .therapies-text {
   text-align: center;
+  padding: 20px 0 40px;
 }
 
 .therapies-text p,
@@ -290,6 +293,46 @@ li {
 .emdr img {
   flex: 1;
   width: 100%;
+}
+
+/* SERVICES SECTION */
+
+.services h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.services p {
+  padding-bottom: 20px;
+}
+
+.services-cards {
+  display: flex;
+  text-align: center;
+}
+
+.services-cards h3 {
+  padding: 10px 0;
+}
+
+.services img {
+  width: 50%;
+}
+
+.services a {
+  color: #000;
+}
+
+.btn-services {
+  font-family: var(--main-font, sans-serif);
+  font-weight: 600;
+  border-radius: 10px;
+  border: 1px solid;
+  padding: 4px;
+}
+
+.btn-individual {
+  padding-top: 50px;
 }
 
 /* CONTACT PAGE */
