@@ -251,12 +251,12 @@ li {
   background-color: rgb(226, 186, 186);
 }
 
-.therapy-type div {
+.therapy-type figure {
   position: relative;
   text-align: center;
 }
 
-.therapy-type div p {
+.therapy-type figure figcaption {
   position: absolute;
   z-index: 20;
   color: #fafafa;
@@ -269,7 +269,7 @@ li {
   padding-top: 10px;
 }
 
-.therapy-type div img {
+.therapy-type figure img {
   width: 100%;
 
   filter: brightness(50%);
@@ -329,10 +329,6 @@ li {
   border-radius: 10px;
   border: 1px solid;
   padding: 4px;
-}
-
-.btn-individual {
-  padding-top: 50px;
 }
 
 /* CONTACT PAGE */
@@ -500,7 +496,7 @@ select,
     padding-top: 30px;
   }
 
-  .therapy-type div p {
+  .therapy-type figure figcaption {
     font-size: 14px;
   }
 }
@@ -582,6 +578,22 @@ select,
   .contact-info {
     padding-left: 0;
     padding-top: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  .services-cards {
+    flex-direction: column;
+  }
+
+  .btn-individual,
+  .btn-online,
+  .btn-supervision {
+    padding-bottom: 25px;
+  }
+
+  .services p {
+    padding-bottom: 10px;
   }
 }
 
