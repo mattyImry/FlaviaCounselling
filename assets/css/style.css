@@ -312,6 +312,7 @@ li {
 
 .services-cards {
   display: flex;
+  justify-content: space-evenly;
   text-align: center;
 }
 
@@ -326,6 +327,10 @@ li {
 .services a {
   color: #000;
 }
+
+/* .service-items {
+  display: flex;
+} */
 
 .btn-services {
   font-family: var(--main-font, sans-serif);
