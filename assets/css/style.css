@@ -341,6 +341,25 @@ li {
   cursor: pointer;
 }
 
+/* ABOUT PAGE */
+
+.about-img {
+  width: 100%;
+}
+
+.about-banner {
+  display: flex;
+  position: relative;
+  background-image: url(/assets/images/flavia.jpg);
+}
+
+.about-banner h3 {
+  position: absolute;
+  top: 15%;
+  padding-left: 50px;
+  line-height: 45px;
+}
+
 /* CONTACT PAGE */
 
 .main-title {
