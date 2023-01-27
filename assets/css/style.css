@@ -344,19 +344,23 @@ li {
 /* ABOUT PAGE */
 
 .about-img {
-  width: 100%;
+  position: absolute;
+  max-height: 70%;
+  top: 10%;
+  right: 5%;
 }
 
 .about-banner {
   display: flex;
   position: relative;
-  background-image: url(/assets/images/flavia.jpg);
+  background-image: url(/assets/images/background_about_me.jpg);
+  height: 700px;
 }
 
 .about-banner h3 {
   position: absolute;
   top: 15%;
-  padding-left: 50px;
+  padding-left: 10%;
   line-height: 45px;
 }
 
