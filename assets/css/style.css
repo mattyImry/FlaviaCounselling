@@ -328,10 +328,6 @@ li {
   color: #000;
 }
 
-/* .service-items {
-  display: flex;
-} */
-
 .btn-services {
   font-family: var(--main-font, sans-serif);
   font-weight: 600;
@@ -347,7 +343,7 @@ li {
   position: absolute;
   max-height: 70%;
   top: 10%;
-  right: 5%;
+  right: 10%;
 }
 
 .about-banner {
@@ -357,11 +353,68 @@ li {
   height: 700px;
 }
 
+.about-banner h1 {
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+
 .about-banner h3 {
   position: absolute;
   top: 15%;
   padding-left: 10%;
   line-height: 45px;
+}
+
+.approach {
+  display: flex;
+  justify-content: space-evenly;
+}
+.approach h2 {
+  text-align: center;
+}
+
+.quote {
+  line-height: 35px;
+  padding: 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  display: flex;
+  max-width: fit-content;
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+}
+
+.card-container {
+  padding: 2px 16px;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience h2 {
+  padding-top: 20px;
+}
+
+.experience p {
+  position: relative;
+  left: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 40px;
+  white-space: normal;
+  overflow: hidden;
 }
 
 /* CONTACT PAGE */
