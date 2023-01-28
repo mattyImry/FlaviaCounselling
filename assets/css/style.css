@@ -340,16 +340,16 @@ li {
 /* ABOUT PAGE */
 
 .about-banner {
-  background-image: url(/assets/images/background_about_me.jpg);
-  height: 700px;
-}
-
-.about-content {
   display: flex;
+  background-image: url(/assets/images/background_about_me.jpg);
+  min-height: auto;
+  background-repeat: no-repeat;
 }
 
 .about-content-text {
-  margin-left: 200px;
+  display: flex;
+  margin-left: 10%;
+  flex-direction: column;
 }
 
 .about-content-text h1 {
@@ -366,7 +366,7 @@ li {
 .about-img {
   max-height: 500px;
   margin-top: 50px;
-  margin-left: 80px;
+  margin-left: 10%;
 }
 
 .approach {
