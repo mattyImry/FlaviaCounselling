@@ -424,11 +424,43 @@ li {
 
 .my-approach-text p {
   font-weight: 600;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 10px 20px 10px;
   line-height: 40px;
   white-space: normal;
   overflow: hidden;
+}
+
+.qualification-list h3,
+.memberships h3 {
+  text-align: left;
+}
+
+.qualification-list li,
+.memberships li {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.my-experience,
+.qualification {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 70px 20px 70px;
+}
+
+.my-experience-text p,
+.my-qualification-text p {
+  text-align: left;
+  padding: 20px 0 20px 20px;
+  font-weight: 500;
 }
 
 /* CONTACT PAGE */
@@ -615,7 +647,35 @@ select,
   .about-img-div {
     padding-left: 0;
   }
+  .about-content-text,
+  .about-content-text h3,
+  .about-content-text h1 {
+    padding: 10px;
+  }
 }
+
+@media (max-width: 700px) {
+  .about-banner {
+    flex-direction: column;
+  }
+  .about-content-text {
+    margin-left: 0;
+  }
+
+  .about-img-div {
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .approach {
+    flex-direction: column;
+  }
+
+  .card {
+    width: fit-content;
+  }
+}
+
 @media (max-width: 604px) {
   .img-welcome {
     display: none;
@@ -633,19 +693,6 @@ select,
 
   .emdr {
     left: 50%;
-  }
-
-  .about-banner {
-    flex-direction: column;
-  }
-
-  .about-content-text {
-    margin-left: 0;
-  }
-
-  .about-img-div {
-    text-align: center;
-    padding-bottom: 15px;
   }
 }
 
@@ -673,6 +720,11 @@ select,
   .hi-text h3 {
     padding-top: 15px;
     padding-bottom: 15px;
+    font-size: 15px;
+  }
+
+  .about-content-text h3,
+  .approach {
     font-size: 15px;
   }
 }
