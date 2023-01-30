@@ -342,8 +342,12 @@ li {
 .about-banner {
   display: flex;
   background-image: url(/assets/images/background_about_me.jpg);
-  min-height: auto;
+  /* min-height: auto; */
   background-repeat: no-repeat;
+}
+
+.about-content-text h1 {
+  text-align: center;
 }
 
 .about-content-text {
@@ -363,10 +367,13 @@ li {
   line-height: 45px;
 }
 
+.about-img-div {
+  padding-left: 20%;
+}
+
 .about-img {
   max-height: 500px;
   margin-top: 50px;
-  margin-left: 10%;
 }
 
 .approach {
@@ -386,8 +393,6 @@ li {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  /* display: table;
-  width: auto; */
   height: min-content;
   border: 1px solid black;
   margin-left: 10px;
@@ -526,11 +531,16 @@ select,
 
 /*MEDIA QUERIES */
 
-@media (max-width: 1340px) {
-  /* .about-img {
-    top: 50%;
-    left: 50%;
-  } */
+@media (max-width: 1500px) {
+  .about-img-div {
+    padding-left: 5%;
+  }
+}
+
+@media (max-width: 1256px) {
+  .about-img-div {
+    padding-right: 10px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -601,6 +611,10 @@ select,
   .therapy-type figure figcaption {
     font-size: 14px;
   }
+
+  .about-img-div {
+    padding-left: 0;
+  }
 }
 @media (max-width: 604px) {
   .img-welcome {
@@ -619,6 +633,19 @@ select,
 
   .emdr {
     left: 50%;
+  }
+
+  .about-banner {
+    flex-direction: column;
+  }
+
+  .about-content-text {
+    margin-left: 0;
+  }
+
+  .about-img-div {
+    text-align: center;
+    padding-bottom: 15px;
   }
 }
 
