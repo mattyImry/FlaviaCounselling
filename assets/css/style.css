@@ -22,9 +22,9 @@ a {
   text-decoration: none;
 }
 
-li {
+/* li {
   list-style: none;
-}
+} */
 
 /* NAVBAR STYLING STARTS */
 
@@ -39,6 +39,7 @@ li {
 
 .nav-links a {
   color: var(--link-color, #fff);
+  text-decoration: none;
 }
 
 /* LOGO */
@@ -66,11 +67,13 @@ li {
 
 .menu li {
   padding: 5px 14px;
+  list-style: none;
 }
 
 .footer li,
 .sub-footer li {
   padding: 5px;
+  list-style: none;
 }
 
 /*RESPONSIVE NAVBAR MENU STARTS*/
@@ -368,7 +371,10 @@ li {
 }
 
 .about-img-div {
-  padding-left: 20%;
+  /* padding-left: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px; */
+  padding: 10px 0 10px 20%;
 }
 
 .about-img {
@@ -430,6 +436,10 @@ li {
   overflow: hidden;
 }
 
+.qualif li {
+  list-style-type: disc;
+}
+
 .qualification-list h3,
 .memberships h3 {
   text-align: left;
@@ -438,7 +448,6 @@ li {
 .qualification-list li,
 .memberships li {
   display: block;
-  list-style-type: disc;
   margin-top: 1em;
   margin-bottom: 1em;
   margin-left: 0;
@@ -651,6 +660,10 @@ select,
   .about-content-text h3,
   .about-content-text h1 {
     padding: 10px;
+  }
+
+  .about-img {
+    margin-top: 0;
   }
 }
 
