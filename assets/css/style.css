@@ -570,6 +570,11 @@ select,
   width: 70px;
 }
 
+.step {
+  background-image: url(/assets/images/next_step.jpg);
+  height: 100%;
+}
+
 /*MEDIA QUERIES */
 
 @media (max-width: 1500px) {
