@@ -572,7 +572,29 @@ select,
 
 .step {
   background-image: url(/assets/images/next_step.jpg);
-  height: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 20%;
+}
+
+.step p {
+  padding-top: 20px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.step-btn {
+  padding-top: 20px;
+}
+
+.step button {
+  max-width: fit-content;
+}
+
+.step-text {
+  padding-top: 150px;
 }
 
 /*MEDIA QUERIES */
@@ -744,6 +766,11 @@ select,
   .about-content-text h3,
   .approach {
     font-size: 15px;
+  }
+
+  .step {
+    text-align: center;
+    padding-left: 0;
   }
 }
 
