@@ -412,6 +412,7 @@ a {
 
 .card-container {
   padding: 2px 16px;
+  width: 250px;
 }
 
 .my-approach {
@@ -429,9 +430,9 @@ a {
 }
 
 .my-approach-text p {
-  font-weight: 600;
-  padding: 20px 10px 20px 10px;
-  line-height: 40px;
+  text-align: justify;
+  padding: 20px 80px 20px 80px;
+  line-height: 30px;
   white-space: normal;
   overflow: hidden;
 }
@@ -461,15 +462,20 @@ a {
 .qualification {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: justify;
   padding: 20px 70px 20px 70px;
 }
 
 .my-experience-text p,
 .my-qualification-text p {
-  text-align: left;
+  text-align: justify;
   padding: 20px 0 20px 20px;
   font-weight: 500;
+}
+
+.my-experience h2,
+.qualification h2 {
+  text-align: center;
 }
 
 /* CONTACT PAGE */
@@ -709,10 +715,12 @@ select,
 
   .approach {
     flex-direction: column;
+    text-align: center;
   }
 
   .card {
-    width: fit-content;
+    display: none;
+    /* width: fit-content; */
   }
 }
 
