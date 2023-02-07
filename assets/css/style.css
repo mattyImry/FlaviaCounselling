@@ -119,20 +119,26 @@ a {
   justify-content: space-between;
 }
 
+.welcome-text {
+  padding-right: 15%;
+  padding-top: 5%;
+  line-height: 30px;
+}
+
 .welcome-text h1 {
   text-align: center;
-  padding: 100px 40px 0 40px;
+  line-height: 40px;
 }
 
 .welcome-text h3 {
   text-align: center;
-  padding: 40px 50px 40px 50px;
+  /* padding: 40px 50px 40px 50px; */
   line-height: 30px;
-  font-weight: 900;
 }
 
 .img-welcome {
   width: 30%;
+  height: 50%;
 }
 
 .hi {
@@ -624,27 +630,27 @@ select,
 }
 
 @media (max-width: 1256px) {
-  .about-img-div {
-    /* padding-right: 10px; */
-  }
 }
 
 @media (max-width: 1200px) {
-  .welcome-text h1 {
-    padding-top: 60px;
+  .welcome-text {
+    padding-top: 2%;
+    padding-right: 5%;
   }
 }
 
 @media (max-width: 979px) {
-  .main-text {
+  .main-text,
+  .welcome-text h1 {
     font-size: 24px;
+  }
+
+  .welcome-text h4 {
+    font-size: 16px;
+    line-height: 20px;
   }
   select {
     margin-top: 5px;
-  }
-
-  .welcome-text h1 {
-    padding-top: 30px;
   }
 }
 
@@ -656,6 +662,11 @@ select,
 
   .hi img {
     width: 100%;
+  }
+
+  .welcome-text {
+    padding-top: 10px;
+    padding-right: 15px;
   }
 }
 
@@ -696,8 +707,21 @@ select,
     font-size: 18px;
   }
 
-  .welcome-text h3 {
-    padding-top: 30px;
+  .welcome-text {
+    padding-left: 5px;
+    padding-bottom: 5px;
+  }
+
+  .welcome-text h1 {
+    font-size: 24px;
+    line-height: normal;
+    padding-bottom: 5px;
+  }
+
+  .welcome-text h4 {
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 500;
   }
 
   .therapy-type figure figcaption {
@@ -723,6 +747,13 @@ select,
 }
 
 @media (max-width: 700px) {
+  .welcome {
+    display: block;
+    padding-bottom: 10px;
+  }
+  .img-welcome {
+    display: none;
+  }
   .about-banner {
     flex-direction: column;
   }
