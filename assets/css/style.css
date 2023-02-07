@@ -360,21 +360,23 @@ a {
 }
 
 .about-content-text h1 {
-  padding-left: 10%;
+  /* padding-left: 10%; */
   padding-top: 50px;
+  text-align: justify;
 }
 
 .about-banner h3 {
-  padding-top: 50px;
-  padding-left: 10%;
-  line-height: 45px;
+  padding-top: 5%;
+  padding-right: 35%;
+
+  line-height: 30px;
+  text-align: justify;
+  font-weight: 500;
 }
 
 .about-img-div {
-  /* padding-left: 20%;
-  padding-top: 10px;
-  padding-bottom: 10px; */
-  padding: 10px 0 10px 20%;
+  padding-right: 15%;
+  padding-bottom: 40px;
 }
 
 .about-img {
@@ -401,7 +403,7 @@ a {
   transition: 0.3s;
   height: min-content;
   border: 1px solid black;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-bottom: 20px;
   margin-top: 20px;
 }
@@ -605,15 +607,21 @@ select,
 
 /*MEDIA QUERIES */
 
+@media (max-width: 1800px) {
+  .about-img-div {
+    /* padding-left: 5%; */
+  }
+}
+
 @media (max-width: 1500px) {
   .about-img-div {
-    padding-left: 5%;
+    /* padding-left: 5%; */
   }
 }
 
 @media (max-width: 1256px) {
   .about-img-div {
-    padding-right: 10px;
+    /* padding-right: 10px; */
   }
 }
 
@@ -687,12 +695,16 @@ select,
   }
 
   .about-img-div {
-    padding-left: 0;
+    padding: 20px;
   }
   .about-content-text,
   .about-content-text h3,
   .about-content-text h1 {
     padding: 10px;
+  }
+
+  .about-content-text h3 {
+    font-size: 16px;
   }
 
   .about-img {
@@ -703,6 +715,13 @@ select,
 @media (max-width: 700px) {
   .about-banner {
     flex-direction: column;
+  }
+  .about-banner h1 {
+    text-align: center;
+  }
+
+  .about-banner h3 {
+    padding: 0 80px 0 80px;
   }
   .about-content-text {
     margin-left: 0;
@@ -720,7 +739,6 @@ select,
 
   .card {
     display: none;
-    /* width: fit-content; */
   }
 }
 
