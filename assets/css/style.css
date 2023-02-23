@@ -336,6 +336,7 @@ a {
 
 .services img {
     width: 50%;
+    border-radius: 100%;
 }
 
 .services a {
