@@ -575,7 +575,8 @@ select,
 
 /*FOOTER*/
 
-.footer {
+.footer,
+.sub-footer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -588,7 +589,7 @@ select,
 
 .logos-footer {
     text-align: center;
-    padding: 20px;
+
     background-color: var(--nav-bg-color, teal);
     color: var(--link-color, #fff);
     gap: 1em;

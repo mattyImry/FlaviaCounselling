@@ -1,137 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dr Flavia Cigolla Online Psychology</title>
+        <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+        <script
+            src="https://kit.fontawesome.com/cb2d910de4.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <script
+            type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+        ></script>
+        <script
+            async
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADjO3J1Rev-IGpBvgUqSFNmjkxFqSpwA0&libraries=places&callback=initMap"
+        ></script>
+        <script>
+            (function () {
+                emailjs.init("NdJRf6Jtu9l2dGApS");
+            })();
+        </script>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr Flavia Cigolla Online Psychology</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-    <script src="https://kit.fontawesome.com/cb2d910de4.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script async
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADjO3J1Rev-IGpBvgUqSFNmjkxFqSpwA0&libraries=places&callback=initMap">
-    </script>
-    <script>
-        (function () {
-            emailjs.init("NdJRf6Jtu9l2dGApS");
-        })();
-    </script>
+    <body>
+        <nav class="navbar">
+            <!-- LOGO -->
+            <div class="logo"><a href="/">LOGO HERE</a></div>
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links">
+                <!-- USING CHECKBOX HACK -->
+                <input type="checkbox" id="checkbox_toggle" class="check" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <!-- NAVIGATION MENUS -->
+                <div class="menu">
+                    <!-- <li><a href="/">Home</a></li> -->
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/faq.html">FAQ</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/consultation.html">Free Consultation</a></li>
+                </div>
+            </ul>
+        </nav>
+        <div class="main-contact">
+            <h1 class="main-title">Contact</h1>
 
-</head>
+            <div class="form-container">
+                <form
+                    class="form-booking"
+                    id="contact-form"
+                    onsubmit="return sendMail(this);"
+                >
+                    <input
+                        type="text"
+                        class="name-input namebox"
+                        id="name"
+                        name="name"
+                        placeholder="Full Name *"
+                        required
+                    />
+                    <input
+                        type="email"
+                        class="emailbox"
+                        name="emailaddress"
+                        id="exampleInputEmail1"
+                        placeholder="Email *"
+                        required
+                    />
+                    <input
+                        type="phone"
+                        class="phone"
+                        name="phone"
+                        id="exampleInputphone"
+                        placeholder="Phone number *"
+                        required
+                    />
+                    <textarea
+                        class="messagebox"
+                        name="message"
+                        id="exampleFormControlTextarea1"
+                        rows="4"
+                        placeholder="Message *"
+                        required
+                    ></textarea>
 
-<body>
-    <nav class="navbar">
-        <!-- LOGO -->
-        <div class="logo"><a href="/">LOGO HERE</a></div>
-        <!-- NAVIGATION MENU -->
-        <ul class="nav-links">
-            <!-- USING CHECKBOX HACK -->
-            <input type="checkbox" id="checkbox_toggle" class="check" />
-            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-            <!-- NAVIGATION MENUS -->
-            <div class="menu">
-                <!-- <li><a href="/">Home</a></li> -->
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/faq.html">FAQ</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-                <li><a href="/consultation.html">Free Consultation</a></li>
+                    <div class="question-form">
+                        <label class="q1">
+                            Are you using private healthcare insurance? *
+                        </label>
+                        <select
+                            name="insurances"
+                            id="insurances"
+                            class="drop-contact"
+                            required
+                        >
+                            <option value="aviva">Aviva</option>
+                            <option value="bupa">Bupa</option>
+                            <option value="axa">Axa</option>
+                            <option value="cigna">Cigna</option>
+                            <option value="vitality">Vitality</option>
+                            <option value="simply">Simply Health</option>
+                            <option value="wpa">Wpa</option>
+                            <option value="self-funding">Self-funding</option>
+                        </select>
+                    </div>
+                    <div class="over18">
+                        <label for="over 18">Are you over 18?</label>
+                        <input
+                            type="checkbox"
+                            id="over18"
+                            name="over18"
+                            value="age"
+                            required
+                        />
+                    </div>
+                    <div class="button">
+                        <button type="submit" value="Submit" class="btn-submit">
+                            Submit
+                        </button>
+                    </div>
+                </form>
             </div>
-        </ul>
-    </nav>
-    <div class="main-contact">
-        <h1 class="main-title">Contact</h1>
 
-        <div class="form-container">
-            <form class="form-booking" id="contact-form" onsubmit="return sendMail(this);">
-                <input type="text" class="name-input namebox" id="name" name="name" placeholder="Full Name *"
-                    required />
-                <input type="email" class="emailbox" name="emailaddress" id="exampleInputEmail1" placeholder="Email *"
-                    required />
-                <input type="phone" class="phone" name="phone" id="exampleInputphone" placeholder="Phone number *"
-                    required />
-                <textarea class="messagebox" name="message" id="exampleFormControlTextarea1" rows="4"
-                    placeholder="Message *" required></textarea>
-
-                <div class="question-form">
-                    <label class="q1">Are you using private healthcare insurance? *</label>
-                    <select name="insurances" id="insurances" class="drop-contact" required>
-
-                        <option value="aviva">Aviva</option>
-                        <option value="bupa">Bupa</option>
-                        <option value="axa">Axa</option>
-                        <option value="cigna">Cigna</option>
-                        <option value="vitality">Vitality</option>
-                        <option value="simply">Simply Health</option>
-                        <option value="wpa">Wpa</option>
-                        <option value="self-funding">Self-funding</option>
-                    </select>
+            <div class="cont">
+                <!-- MAP CONTAINER DO NOT REMOVE I KNOW IT'S EMPTY!! -->
+                <div class="map-div" id="map"></div>
+                <div class="contact-info">
+                    <ul>
+                        <li class="list-item">
+                            <i class="fa-solid fa-map-location fa-xl"></i>
+                            Address
+                        </li>
+                        <li>
+                            <p class="list-item">45 Central street London EC1V 8AB</p>
+                        </li>
+                        <li class="list-item">
+                            <i class="fa-solid fa-envelope fa-xl"></i>
+                            Email
+                        </li>
+                        <li>
+                            <p class="list-item">fcigolla@gmail.com</p>
+                        </li>
+                        <li class="list-item">
+                            <i class="fa-solid fa-phone fa-xl"></i>
+                            Phone
+                        </li>
+                        <li>
+                            <p class="list-item">07886547289</p>
+                        </li>
+                    </ul>
                 </div>
-                <div class="over18">
-                    <label for="over 18"> Are you over 18?</label>
-                    <input type="checkbox" id="over18" name="over18" value="age" required>
-                </div>
-                <div class="button">
-                    <button type="submit" value="Submit" class="btn-submit">Submit</button>
-                </div>
-
-            </form>
+            </div>
         </div>
-
-        <div class="cont">
-            <!-- MAP CONTAINER DO NOT REMOVE I KNOW IT'S EMPTY!! -->
-            <div class="map-div" id="map"></div>
-            <div class="contact-info">
-
+        <footer class="footer">
+            <div class="link-footer">
                 <ul>
-                    <li class="list-item"><i class="fa-solid fa-map-location fa-xl"></i>Address</li>
-                    <li>
-                        <p class="list-item">45 Central street London EC1V 8AB</p>
-                    </li>
-                    <li class="list-item"><i class="fa-solid fa-envelope fa-xl"></i>Email</li>
-                    <li>
-                        <p class="list-item">fcigolla@gmail.com</p>
-                    </li>
-                    <li class="list-item"><i class="fa-solid fa-phone fa-xl"></i>Phone</li>
-                    <li>
-                        <p class="list-item">07886547289</p>
-                    </li>
+                    <li class="item"><a href="/">Home</a></li>
+                    <li class="item"><a href="/contact.html">Contact</a></li>
+                    <li class="item"><a href="/faq.html">FAQ</a></li>
                 </ul>
             </div>
+        </footer>
+        <div class="logos-footer">
+            <a href="https://www.bps.org.uk/psychologist" target="_blank">
+                <img src="../assets/images/bps_logo.jpg" alt="Logo bps" class="bps" />
+            </a>
+
+            <a href="https://www.hcpc-uk.org/check-the-register/" target="_blank">
+                <img src="../assets/images/hcpclogo.jpg" alt="Logo hcpc" class="hcpc" />
+            </a>
         </div>
 
-    </div>
-    <div class="footer">
+        <div class="sub-footer">
+            <li class="item-sb"><a href="privacy.html">privacy policy</a></li>
+            <li class="item-sb"><a href="/terms.html">terms</a></li>
+            <li class="item-sb">
+                <p class="copyright">
+                    &copy;
+                    <span id="year"></span>
+                    Dr. Flavia Cigolla
+                </p>
+            </li>
+        </div>
 
-        <li class="item"><a href="/">Home</a></li>
-        <li class="item"><a href="/contact.html">Contact</a></li>
-        <li class="item"><a href="/faq.html">FAQ</a></li>
-        <li><a href="https://www.hcpc-uk.org/check-the-register/" target="_blank">
-                <img src="../assets/images/HCPClogo.jpg" alt="Logo hcpc" class="hcpc">
-            </a>
-        </li>
-
-
-    </div>
-    <div class="sub-footer">
-        <li class="item-sb"><a href="/privacy.html">privacy policy</a></li>
-        <li class="item-sb"><a href="/terms.html">terms</a></li>
-        <li class="item-sb">
-            <p class="copyright">
-                &copy; <span id="year"></span> Dr. Flavia Cigolla
-            </p>
-        </li>
-
-    </div>
-
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/email.js"></script>
-    <script src="assets/js/map.js"></script>
-
-
-
-
-</body>
-
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/email.js"></script>
+        <script src="assets/js/map.js"></script>
+    </body>
 </html>
