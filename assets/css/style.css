@@ -206,7 +206,7 @@ a {
     cursor: pointer;
 }
 
-/* MODAL FOR EXPETIES SECTION */
+/* MODAL FOR EXPERTIES SECTION */
 
 .modal {
     display: none;
@@ -575,11 +575,10 @@ select,
 
 /*FOOTER*/
 
-.footer,
-.sub-footer {
+.footer {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    align-content: center;
     justify-content: center;
     padding: 20px;
     background-color: var(--nav-bg-color, teal);
@@ -587,8 +586,33 @@ select,
     gap: 1em;
 }
 
+.logos-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--nav-bg-color, teal);
+    color: var(--link-color, #fff);
+    gap: 1em;
+}
+
+.link-footer ul {
+    display: flex;
+}
+
+.link-footer li,
+.logos-footer li {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
 .hcpc {
     width: 70px;
+}
+
+.bps {
+    width: 200px;
+    height: 71.47px;
 }
 
 .step {
@@ -843,7 +867,6 @@ select,
         font-size: 12px;
     }
 
-    .footer li,
     .sub-footer li {
         padding: 0px;
     }
