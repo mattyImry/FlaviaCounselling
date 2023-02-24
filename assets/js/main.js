@@ -1,7 +1,6 @@
 //SET CURRENT YEAR IN FOOTER
 
 document.getElementById("year").innerHTML = (new Date().getFullYear());
-console.log('hhh');
 
 //MODALS
 
@@ -10,6 +9,7 @@ var modalOpen = document.getElementsByClassName("modalOpen");
 var currentModal = null;
 
 // Function to open modal by id
+
 function openModal(id) {
   for (i = 0; i < modals.length; i++) {
     if (modals[i].getAttribute('id') == id) {
