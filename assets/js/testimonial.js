@@ -11,7 +11,7 @@
            }
        }
        if (pagenum == 4) {
-           pagenum = 1;
+           pagenum =+ 1;
        } else {
            pagenum++;
        }
