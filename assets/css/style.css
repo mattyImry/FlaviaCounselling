@@ -354,7 +354,7 @@ a {
 /* TESTIMONIAL CAROUSEL */
 
 .testimonial {
-    margin: 0 5% 2% 5%;
+    margin: 0 5% 3% 5%;
 }
 
 .testimonial h1 {
@@ -428,11 +428,12 @@ a {
 .testimonial_2 {
     font-size: 16px !important;
     color: #333; /* Change testimonial paragraph text color */
-    padding: 30px 100px 23px;
+    /* padding: 30px 100px 30px; */
+    padding: 5% 8% 5% 8%;
+    text-align: center;
 }
 .content_2 {
     position: relative;
-    padding-left: 30px;
     margin-bottom: 30px;
 }
 .content_2:before,
@@ -444,7 +445,9 @@ a {
 }
 
 .testimonial_2 p {
-    display: inline;
+    text-align: center;
+    font-family: var(--second-font, sans-serif);
+    font-size: 24px;
 }
 
 /* ABOUT PAGE */
@@ -761,20 +764,6 @@ select,
 }
 
 @media (max-width: 979px) {
-    .main-text,
-    .welcome-text h1,
-    .hi-text h1,
-    .experties h1,
-    .therapies-text h1,
-    .services-title {
-        font-size: 24px;
-    }
-
-    .welcome-text h4,
-    .hi-text h3 {
-        font-size: 16px;
-        line-height: 20px;
-    }
     select {
         margin-top: 5px;
     }
@@ -807,6 +796,22 @@ select,
         display: block;
     }
 
+    .main-text,
+    .welcome-text h1,
+    .hi-text h1,
+    .experties h1,
+    .therapies-text h1,
+    .services h1,
+    .testimonial h1 {
+        font-size: 24px;
+    }
+
+    .welcome-text h4,
+    .hi-text h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
     .hi-text h1 {
         padding-top: 15px;
         font-size: 24px;
@@ -815,8 +820,7 @@ select,
     .hi-text h3 {
         padding-top: 15px;
         padding-bottom: 15px;
-        font-size: 18px;
-        font-size: 16px;
+
         line-height: normal;
         font-weight: 500;
     }
@@ -826,13 +830,11 @@ select,
     }
 
     .welcome-text h1 {
-        font-size: 24px;
         line-height: normal;
         padding-bottom: 5px;
     }
 
     .welcome-text h4 {
-        font-size: 16px;
         line-height: normal;
         font-weight: 500;
     }
@@ -860,6 +862,10 @@ select,
 
     .about-img {
         margin-top: 0;
+    }
+
+    .content_2 p {
+        font-size: 16px;
     }
 }
 
