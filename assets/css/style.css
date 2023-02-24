@@ -386,6 +386,7 @@ a {
 .testimonial_slider_2 #slide_2_4:checked ~ .boo_inner {
     margin-left: -300%;
 }
+
 .testimonial_slider_2 .boo_inner {
     width: 400%;
     -webkit-transform: translateZ(0);
@@ -428,8 +429,7 @@ a {
 .testimonial_2 {
     font-size: 16px !important;
     color: #333; /* Change testimonial paragraph text color */
-    /* padding: 30px 100px 30px; */
-    padding: 5% 8% 5% 8%;
+    padding: 5% 8% 0 8%;
     text-align: center;
 }
 .content_2 {
