@@ -1,20 +1,19 @@
+let slideIndex = 0;
+showSlides();
 
-    pagenum = 1;
-    function AutoRotate() {
-      
-       var allElements = document.getElementsByTagName('label');
-       for (var i = 0, n = allElements.length; i < n; i++) {
-           var myfor = allElements[i].getAttribute('for');
-           if ((myfor !== null) && (myfor == ('slide_2_' + pagenum))) {
-               allElements[i].click();
-               break;
-           }
-       }
-       if (pagenum == 4) {
-           pagenum =+ 1;
-       } else {
-           pagenum++;
-       }
-    }
-    setInterval(AutoRotate, 4000);
-;
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
