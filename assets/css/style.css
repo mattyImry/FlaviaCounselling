@@ -369,13 +369,12 @@ a {
 .testimonial-container {
     overflow: hidden;
     text-align: center;
-    height: 250px;
+    height: 200px;
     line-height: 30px;
     margin: 0 5% 0 5%;
     padding: 3% 5% 5% 5%;
     box-shadow: 1px 10px 8px 8px rgba(0, 0, 0, 0.3);
-    font-family: var(--second-font, sans-serif);
-    font-size: 24px;
+    font-family: var(--first-font, sans-serif);
 }
 
 .slideshow-container {
