@@ -358,6 +358,10 @@ a {
     flex-direction: column;
 }
 
+.testimonial h1 {
+    font-size: 32px;
+}
+
 .mySlides {
     display: none;
 }
@@ -368,8 +372,10 @@ a {
     height: 250px;
     line-height: 30px;
     margin: 0 5% 0 5%;
-    padding: 5%;
+    padding: 3% 5% 5% 5%;
     box-shadow: 1px 10px 8px 8px rgba(0, 0, 0, 0.3);
+    font-family: var(--second-font, sans-serif);
+    font-size: 24px;
 }
 
 .slideshow-container {
@@ -833,6 +839,9 @@ select,
     .content_2 p {
         font-size: 16px;
     }
+    .testimonial-container {
+        height: auto;
+    }
 }
 
 @media (max-width: 700px) {
@@ -928,10 +937,6 @@ select,
     .step {
         text-align: center;
         padding-left: 0;
-    }
-
-    .testimonial-container {
-        height: auto;
     }
 }
 
