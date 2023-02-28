@@ -320,7 +320,7 @@ a {
 }
 
 .services p {
-    padding-bottom: 20px;
+    padding: 0 20px 20px 20px;
 }
 
 .services-cards {
@@ -334,8 +334,8 @@ a {
 }
 
 .services img {
-    width: 50%;
-    border-radius: 100%;
+    width: 40%;
+    border-radius: 50%;
 }
 
 .services a {
@@ -350,6 +350,10 @@ a {
     padding: 4px;
     cursor: pointer;
 }
+
+/* .btn-individual {
+    padding-bottom: 20px;
+} */
 
 /* TESTIMONIAL CAROUSEL */
 
