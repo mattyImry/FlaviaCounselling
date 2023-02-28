@@ -330,7 +330,7 @@ a {
     text-align: center;
 }
 
-figure {
+.service-items {
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -652,6 +652,36 @@ select,
 
 .fa-solid {
     margin-right: 10px;
+}
+
+/* CBT PAGE */
+
+.cbt-container {
+    display: flex;
+    text-align: center;
+    padding-left: 100px;
+}
+
+.cbt-description {
+    text-align: left;
+    padding: 40px 20px 20px 20px;
+    width: 30%;
+}
+
+.cbt-description h1 {
+    padding-bottom: 20px;
+}
+
+.cbt-img {
+    width: 70%;
+    padding: 10%;
+}
+
+/* ACT PAGE */
+
+.act-title,
+.emdr-title {
+    text-align: left;
 }
 
 /*FOOTER*/
