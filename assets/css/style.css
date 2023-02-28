@@ -325,16 +325,27 @@ a {
 
 .services-cards {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: center;
     text-align: center;
+}
+
+figure {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 20px;
 }
 
 .services-cards h3 {
     padding: 10px 0;
 }
 
-.services img {
-    width: 40%;
+.online img,
+.supervision img,
+.individual img {
+    max-width: 40%;
     border-radius: 50%;
 }
 
@@ -350,10 +361,6 @@ a {
     padding: 4px;
     cursor: pointer;
 }
-
-/* .btn-individual {
-    padding-bottom: 20px;
-} */
 
 /* TESTIMONIAL CAROUSEL */
 
