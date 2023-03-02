@@ -42,7 +42,7 @@ a {
 /* LOGO */
 
 .logo {
-    font-size: 32px;
+    width: 70%;
 }
 
 /* NAVBAR MENU */
@@ -126,7 +126,7 @@ a {
 }
 
 .welcome-text h4 {
-    text-align: center;
+    text-align: justify;
     line-height: 30px;
     padding-top: 10px;
 }
@@ -149,13 +149,17 @@ a {
 
 .hi-text h3 {
     text-align: justify;
-    padding: 20px 50px 20px 50px;
+    padding: 20px 200px 20px 200px;
     line-height: 30px;
     font-weight: 900;
+    font-size: 16px;
 }
 .hi img {
     width: 40%;
     height: 50%;
+
+    padding-right: 30px;
+    padding-bottom: 30px;
 }
 
 .value {
@@ -773,11 +777,18 @@ select,
         padding-top: 3%;
         padding-right: 5%;
     }
+    .hi-text h3 {
+        padding: 20px 100px 20px 100px;
+    }
 }
 
 @media (max-width: 979px) {
     select {
         margin-top: 5px;
+    }
+
+    .hi-text h3 {
+        padding: 20px 40px 20px 40px;
     }
 }
 
@@ -835,6 +846,11 @@ select,
 
         line-height: normal;
         font-weight: 500;
+    }
+
+    .hi img {
+        padding-right: 0;
+        padding-bottom: 0;
     }
 
     .welcome-text {
