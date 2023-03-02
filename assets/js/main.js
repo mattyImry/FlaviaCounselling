@@ -1,6 +1,3 @@
-//SET CURRENT YEAR IN FOOTER
-
-document.getElementById("year").innerHTML = (new Date().getFullYear());
 
 //MODALS
 
@@ -31,4 +28,8 @@ window.onclick = function(event) {
   if (event.target == currentModal || event.target.getAttribute('class') == 'modalClose') {
     currentModal.style.display = "none";
   }
+
+  //SET CURRENT YEAR IN FOOTER
+  
+  document.getElementById("year").innerHTML = (new Date().getFullYear());
 }
