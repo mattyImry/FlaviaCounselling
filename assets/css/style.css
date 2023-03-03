@@ -149,15 +149,6 @@ a {
     animation: 1.5s slide-right;
 }
 
-@keyframes slide-right {
-    from {
-        margin-left: -100%;
-    }
-    to {
-        margin-left: 0%;
-    }
-}
-
 .welcome {
     text-align: center;
     display: flex;
@@ -172,6 +163,7 @@ a {
 .welcome-text h1 {
     text-align: center;
     line-height: 40px;
+    animation: 1.5s slide-left;
 }
 
 .welcome-text h4 {
@@ -466,9 +458,9 @@ a {
     transition: background-color 0.7s ease;
 }
 
-.active {
+/* .active {
     background-color: #717171;
-}
+} */
 
 /* Fading animation */
 .fade {
@@ -1120,5 +1112,73 @@ select,
 
     .emdr {
         left: 0;
+    }
+}
+
+/* KEY FRAMES */
+
+@keyframes slide-right {
+    from {
+        margin-left: -100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+@keyframes slide-left {
+    from {
+        margin-left: 200%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+.reveal {
+    opacity: 0;
+}
+
+.reveal.active {
+    opacity: 1;
+}
+.active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+}
+.active.fade-left {
+    animation: fade-left 1s ease-in;
+}
+.active.fade-right {
+    animation: fade-right 1s ease-in;
+}
+@keyframes fade-bottom {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes fade-left {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-right {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
     }
 }
