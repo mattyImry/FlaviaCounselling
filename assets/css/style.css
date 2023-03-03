@@ -458,9 +458,9 @@ a {
     transition: background-color 0.7s ease;
 }
 
-/* .active {
-    background-color: #717171;
-} */
+.dot-active {
+    background-color: rgb(109, 109, 109);
+}
 
 /* Fading animation */
 .fade {

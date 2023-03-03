@@ -11,11 +11,11 @@ function showSlides() {
     var i;    
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
-        dots[i].className = dots[i].className.replace(" active", "");
+        dots[i].className = dots[i].className.replace(" dot-active", "");
     }
     slideIndex++;
     if (slideIndex > slides.length) {slideIndex = 1}
-    dots[slideIndex -1].className += " active";
+    dots[slideIndex -1].className += " dot-active";
     slides[slideIndex -1].style.display = "block";
     myTimer = setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
@@ -26,11 +26,11 @@ function currentSlide(no) {
     var i;    
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
-        dots[i].className = dots[i].className.replace(" active", "");
+        dots[i].className = dots[i].className.replace(" dot-active", "");
     }
     slideIndex = no;
     slides[no -1].style.display = "block";
-    dots[no -1].className += " active";
+    dots[no -1].className += " dot-active";
     clearTimeout(myTimer);
     myTimer = setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
