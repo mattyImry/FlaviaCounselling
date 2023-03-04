@@ -877,7 +877,8 @@ select,
     .experties h1,
     .therapies-text h1,
     .services h1,
-    .testimonial h1 {
+    .testimonial h1,
+    .cbt-description h1 {
         font-size: 24px;
     }
 
@@ -949,6 +950,15 @@ select,
     }
     .testimonial-container {
         height: auto;
+    }
+
+    .cbt-container {
+        flex-direction: row;
+    }
+
+    .cbt-img {
+        padding: 20px 5px 0 5px;
+        width: 40%;
     }
 }
 
