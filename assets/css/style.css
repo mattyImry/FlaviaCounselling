@@ -615,6 +615,12 @@ a {
     text-align: center;
 }
 
+/* FAQ */
+
+.div-btn-faq {
+    padding: 10px 0 10px 0;
+}
+
 /* CONTACT PAGE */
 
 .main-title {
@@ -652,7 +658,8 @@ a {
 
 select,
 .btn-submit,
-.btn-about-me {
+.btn-about-me,
+.btn-faq {
     font-family: var(--main-font, sans-serif);
     font-weight: 600;
     border-radius: 10px;
