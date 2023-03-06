@@ -91,6 +91,7 @@ a {
     position: absolute;
     width: 100%;
     overflow: auto;
+    padding: 10px;
     box-shadow: 0px 10px 10px 1px rgba(0, 0, 0, 0.4);
     z-index: 1;
     background-color: var(--nav-bg-color, teal);
@@ -100,7 +101,7 @@ a {
 }
 .dropdown-content a {
     display: block;
-    color: #000000;
+    color: var(--link-color, #fff);
     padding: 5px;
     text-decoration: none;
 }
@@ -717,16 +718,20 @@ select,
 .cbt-description {
     text-align: left;
     padding: 40px 20px 20px 20px;
-    width: 30%;
+    width: 70%;
 }
 
 .cbt-description h1 {
     padding-bottom: 20px;
 }
 
+.cbt-img-div {
+    padding-top: 40px;
+}
+
 .cbt-img {
-    width: 70%;
-    padding: 10%;
+    width: 60%;
+    padding: 5%;
 }
 
 /* ACT PAGE */
@@ -827,6 +832,11 @@ select,
     }
     .hi-text h3 {
         padding: 20px 100px 20px 100px;
+    }
+
+    .cbt-img {
+        padding: 0;
+        width: 70%;
     }
 }
 
@@ -953,12 +963,10 @@ select,
     }
 
     .cbt-container {
-        flex-direction: row;
-    }
-
-    .cbt-img {
-        padding: 20px 5px 0 5px;
-        width: 40%;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        padding-bottom: 20px;
     }
 }
 
