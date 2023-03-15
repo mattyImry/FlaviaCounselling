@@ -92,7 +92,6 @@ a {
   width: 100%;
   overflow: auto;
   padding: 10px;
-  /* margin-top: px; */
   box-shadow: 0px 10px 10px 1px rgba(0, 0, 0, 0.4);
   z-index: 1;
   background-color: var(--nav-bg-color, teal);
@@ -720,13 +719,16 @@ select,
   position: absolute;
   top: 10%;
   left: 10%;
-  line-height: 40px;
+  /* line-height: 40px; */
 }
 
 .cbt-description {
-  /* text-align: left;
-  padding: 40px 20px 20px 20px;
-  width: 70%; */
+  text-align: justify;
+  padding: 20px 80px 40px 80px;
+}
+
+.cbt-description h4 {
+  padding: 20px 0 10px 0;
 }
 
 .cbt-description h1 {
@@ -850,11 +852,6 @@ select,
   .hi-text h3 {
     padding: 20px 100px 20px 100px;
   }
-
-  /* .cbt-img {
-    padding: 0;
-    width: 70%;
-  } */
 }
 
 @media (max-width: 979px) {
