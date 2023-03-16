@@ -707,9 +707,10 @@ select,
   margin-right: 10px;
 }
 
-/* CBT PAGE */
+/* THERAPIES PAGE */
 
-.cbt-container {
+.cbt-container,
+.act-container {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -721,28 +722,32 @@ select,
   left: 10%;
 }
 
-.cbt-description {
+.act-container h1 {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  color: var(--link-color);
+}
+
+.cbt-description,
+.act-description {
   text-align: justify;
   padding: 20px 150px 40px 150px;
 }
 
-.cbt-description h4 {
+.cbt-description h4,
+.act-description h4 {
   padding: 20px 0 10px 0;
 }
 
-.cbt-description h1 {
+.cbt-description h1,
+.act-description h1 {
   padding-bottom: 20px;
 }
 
-.cbt-img {
+.cbt-img,
+.act-img {
   width: 100%;
-}
-
-/* ACT PAGE */
-
-.act-title,
-.emdr-title {
-  text-align: left;
 }
 
 /*FOOTER*/
@@ -897,7 +902,8 @@ select,
   .therapies-text h1,
   .services h1,
   .testimonial h1,
-  .cbt-container h1 {
+  .cbt-container h1,
+  .act-container h1 {
     font-size: 24px;
   }
 
