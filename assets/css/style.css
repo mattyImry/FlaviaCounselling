@@ -719,12 +719,11 @@ select,
   position: absolute;
   top: 10%;
   left: 10%;
-  /* line-height: 40px; */
 }
 
 .cbt-description {
   text-align: justify;
-  padding: 20px 80px 40px 80px;
+  padding: 20px 150px 40px 150px;
 }
 
 .cbt-description h4 {
@@ -902,7 +901,7 @@ select,
   .therapies-text h1,
   .services h1,
   .testimonial h1,
-  .cbt-description h1 {
+  .cbt-container h1 {
     font-size: 24px;
   }
 
@@ -976,12 +975,15 @@ select,
     height: auto;
   }
 
-  /* .cbt-container {
-    flex-direction: column;
-    align-items: center;
-    padding-left: 0;
-    padding-bottom: 20px;
-  } */
+  .cbt-container h1 {
+    top: 6%;
+    left: 10%;
+  }
+
+  .cbt-description {
+    text-align: justify;
+    padding: 20px 100px 40px 100px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -1046,6 +1048,15 @@ select,
   .hi img {
     width: 100%;
   }
+
+  .cbt-container h1 {
+    top: 4%;
+    left: 10%;
+  }
+
+  .cbt-description {
+    padding: 20px 80px 40px 80px;
+  }
 }
 
 @media (max-width: 504px) {
@@ -1059,7 +1070,8 @@ select,
   }
 
   .welcome-text h1,
-  .hi-text h1 {
+  .hi-text h1,
+  .cbt-container h1 {
     font-size: 22px;
   }
   .welcome-text h3,
@@ -1109,6 +1121,15 @@ select,
   .contact-info {
     padding-left: 0;
     padding-top: 50px;
+  }
+
+  .cbt-container h1 {
+    top: 2%;
+    left: 10%;
+  }
+
+  .cbt-description {
+    padding: 20px 50px 40px 50px;
   }
 }
 
