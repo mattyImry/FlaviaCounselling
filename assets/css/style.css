@@ -711,15 +711,16 @@ select,
 
 .cbt-container,
 .act-container,
-.cft-container {
+.cft-container,
+.dit-container {
     display: flex;
     flex-direction: column;
     position: relative;
 }
 
 .cbt-container h1,
-.act-container h1,
-.cft-container h1 {
+.cft-container h1,
+.dit-container h1 {
     position: absolute;
     top: 10%;
     left: 10%;
@@ -734,29 +735,30 @@ select,
 
 .cbt-description,
 .act-description,
-.cft-description {
+.cft-description,
+.dit-description {
     text-align: justify;
     padding: 20px 150px 40px 150px;
 }
 
 .cbt-description h4,
 .act-description h4,
-.cft-description h4 {
+.cft-description h4,
+.dit-description h4 {
     padding: 20px 0 10px 0;
 }
 
 .cbt-description h1,
 .act-description h1,
-.cft-description h1 {
+.cft-description h1,
+.dit-description h1 {
     padding-bottom: 20px;
 }
 
 .act-img,
-.cft-img {
-    width: 100%;
-}
-
-.cbt-img {
+.cft-img,
+.cbt-img,
+.dit-img {
     width: 100%;
 }
 
