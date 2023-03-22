@@ -719,7 +719,6 @@ select,
 }
 
 .cbt-container h1,
-.cft-container h1,
 .dit-container h1 {
     position: absolute;
     top: 10%;
@@ -731,6 +730,12 @@ select,
     top: 10%;
     right: 10%;
     color: var(--link-color);
+}
+
+.cft-container h1 {
+    position: absolute;
+    top: 10%;
+    right: 10%;
 }
 
 .cbt-description,
@@ -915,7 +920,8 @@ select,
     .services h1,
     .testimonial h1,
     .cbt-container h1,
-    .act-container h1 {
+    .act-container h1,
+    .cft-container h1 {
         font-size: 24px;
     }
 
@@ -994,13 +1000,15 @@ select,
         left: 10%;
     }
 
-    .act-container h1 {
+    .act-container h1,
+    .cft-container h1 {
         top: 6%;
         right: 10%;
     }
 
     .cbt-description,
-    .act-description {
+    .act-description,
+    .cft-description {
         padding: 20px 100px 40px 100px;
     }
 }
@@ -1073,13 +1081,15 @@ select,
         left: 10%;
     }
 
-    .act-container h1 {
+    .act-container h1,
+    .cft-container h1 {
         top: 4%;
         right: 10%;
     }
 
     .cbt-description,
-    .act-description {
+    .act-description,
+    .cft-description {
         padding: 20px 80px 40px 80px;
     }
 }
@@ -1097,7 +1107,8 @@ select,
     .welcome-text h1,
     .hi-text h1,
     .cbt-container h1,
-    .act-container h1 {
+    .act-container h1,
+    .cft-container h1 {
         font-size: 22px;
     }
     .welcome-text h3,
@@ -1154,13 +1165,15 @@ select,
         left: 10%;
     }
 
-    .act-container h1 {
+    .act-container h1,
+    .cft-container h1 {
         top: 2%;
         right: 3%;
     }
 
     .cbt-description,
-    .act-description {
+    .act-description,
+    .cft-description {
         padding: 20px 50px 40px 50px;
     }
 }
@@ -1205,7 +1218,8 @@ select,
     .emdr {
         left: 0;
     }
-    .act-container h1 {
+    .act-container h1,
+    .cft-container h1 {
         font-size: 18px;
     }
 }
