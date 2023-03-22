@@ -718,14 +718,14 @@ select,
     position: relative;
 }
 
-.cbt-container h1,
-.dit-container h1 {
+.cbt-container h1 {
     position: absolute;
     top: 10%;
     left: 10%;
 }
 
-.act-container h1 {
+.act-container h1,
+.dit-container h1 {
     position: absolute;
     top: 10%;
     right: 10%;
@@ -921,7 +921,8 @@ select,
     .testimonial h1,
     .cbt-container h1,
     .act-container h1,
-    .cft-container h1 {
+    .cft-container h1,
+    .dit-container h1 {
         font-size: 24px;
     }
 
@@ -1001,14 +1002,16 @@ select,
     }
 
     .act-container h1,
-    .cft-container h1 {
+    .cft-container h1,
+    .dit-container h1 {
         top: 6%;
         right: 10%;
     }
 
     .cbt-description,
     .act-description,
-    .cft-description {
+    .cft-description,
+    .dit-description {
         padding: 20px 100px 40px 100px;
     }
 }
@@ -1082,14 +1085,16 @@ select,
     }
 
     .act-container h1,
-    .cft-container h1 {
+    .cft-container h1,
+    .dit-container h1 {
         top: 4%;
         right: 10%;
     }
 
     .cbt-description,
     .act-description,
-    .cft-description {
+    .cft-description,
+    .dit-description {
         padding: 20px 80px 40px 80px;
     }
 }
@@ -1108,7 +1113,8 @@ select,
     .hi-text h1,
     .cbt-container h1,
     .act-container h1,
-    .cft-container h1 {
+    .cft-container h1,
+    .dit-container h1 {
         font-size: 22px;
     }
     .welcome-text h3,
@@ -1166,14 +1172,16 @@ select,
     }
 
     .act-container h1,
-    .cft-container h1 {
+    .cft-container h1,
+    .dit-container h1 {
         top: 2%;
         right: 3%;
     }
 
     .cbt-description,
     .act-description,
-    .cft-description {
+    .cft-description,
+    .dit-description {
         padding: 20px 50px 40px 50px;
     }
 }
