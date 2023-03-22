@@ -770,15 +770,6 @@ select,
     padding: 20px 0 10px 0;
 }
 
-/* .cbt-description h1,
-.act-description h1,
-.cft-description h1,
-.dit-description h1,
-.emdr-title1
-.online-description h1 {
-    padding-bottom: 20px;
-} */
-
 .act-img,
 .cft-img,
 .cbt-img,
@@ -786,6 +777,10 @@ select,
 .emdr-img,
 .online-img {
     width: 100%;
+}
+
+.online-list {
+    padding-left: 50px;
 }
 
 /*FOOTER*/
@@ -945,7 +940,8 @@ select,
     .cft-container h1,
     .dit-container h1,
     .emdr-title1,
-    .emdr-title2 {
+    .emdr-title2,
+    .online-container h1 {
         font-size: 24px;
     }
 
@@ -1026,7 +1022,8 @@ select,
 
     .act-container h1,
     .cft-container h1,
-    .dit-container h1 {
+    .dit-container h1,
+    .online-container h1 {
         top: 6%;
         right: 10%;
     }
@@ -1040,7 +1037,8 @@ select,
     .act-description,
     .cft-description,
     .dit-description,
-    .emdr-description {
+    .emdr-description,
+    .online-description {
         padding: 20px 100px 40px 100px;
     }
 }
@@ -1118,7 +1116,8 @@ select,
 
     .act-container h1,
     .cft-container h1,
-    .dit-container h1 {
+    .dit-container h1,
+    .online-container h1 {
         top: 4%;
         right: 10%;
     }
@@ -1137,7 +1136,8 @@ select,
     .act-description,
     .cft-description,
     .dit-description,
-    .emdr-description {
+    .emdr-description,
+    .online-description {
         padding: 20px 80px 40px 80px;
     }
 }
@@ -1158,7 +1158,8 @@ select,
     .act-container h1,
     .cft-container h1,
     .dit-container h1,
-    .emdr-container h1 {
+    .emdr-container h1,
+    .online-container h1 {
         font-size: 22px;
     }
     .welcome-text h3,
@@ -1218,7 +1219,8 @@ select,
     .act-container h1,
     .cft-container h1,
     .dit-container h1,
-    .emdr-container h1 {
+    .emdr-container h1,
+    .online-container h1 {
         top: 2%;
         right: 3%;
     }
@@ -1227,7 +1229,8 @@ select,
     .act-description,
     .cft-description,
     .dit-description,
-    .emdr-description {
+    .emdr-description,
+    .online-description {
         padding: 20px 50px 40px 50px;
     }
 }
@@ -1274,7 +1277,8 @@ select,
     }
     .act-container h1,
     .cft-container h1,
-    .emdr-container h1 {
+    .emdr-container h1,
+    .online-container h1 {
         font-size: 18px;
     }
 }
