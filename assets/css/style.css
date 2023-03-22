@@ -713,7 +713,8 @@ select,
 .act-container,
 .cft-container,
 .dit-container,
-.emdr-container {
+.emdr-container,
+.online-container {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -733,7 +734,8 @@ select,
     color: var(--link-color);
 }
 
-.cft-container h1 {
+.cft-container h1,
+.online-container h1 {
     position: absolute;
     top: 10%;
     right: 10%;
@@ -753,7 +755,8 @@ select,
 .act-description,
 .cft-description,
 .dit-description,
-.emdr-description {
+.emdr-description,
+.online-description {
     text-align: justify;
     padding: 20px 150px 40px 150px;
 }
@@ -762,23 +765,26 @@ select,
 .act-description h4,
 .cft-description h4,
 .dit-description h4,
-.emdr-description h4 {
+.emdr-description h4,
+.online-description h4 {
     padding: 20px 0 10px 0;
 }
 
-.cbt-description h1,
+/* .cbt-description h1,
 .act-description h1,
 .cft-description h1,
 .dit-description h1,
-.emdr-title1 {
+.emdr-title1
+.online-description h1 {
     padding-bottom: 20px;
-}
+} */
 
 .act-img,
 .cft-img,
 .cbt-img,
 .dit-img,
-.emdr-img {
+.emdr-img,
+.online-img {
     width: 100%;
 }
 
