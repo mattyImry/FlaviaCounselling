@@ -712,7 +712,8 @@ select,
 .cbt-container,
 .act-container,
 .cft-container,
-.dit-container {
+.dit-container,
+.emdr-container {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -732,7 +733,8 @@ select,
     color: var(--link-color);
 }
 
-.cft-container h1 {
+.cft-container h1,
+.emdr-container h1 {
     position: absolute;
     top: 10%;
     right: 10%;
@@ -741,7 +743,8 @@ select,
 .cbt-description,
 .act-description,
 .cft-description,
-.dit-description {
+.dit-description,
+.emdr-description {
     text-align: justify;
     padding: 20px 150px 40px 150px;
 }
@@ -749,21 +752,24 @@ select,
 .cbt-description h4,
 .act-description h4,
 .cft-description h4,
-.dit-description h4 {
+.dit-description h4,
+.emdr-description h4 {
     padding: 20px 0 10px 0;
 }
 
 .cbt-description h1,
 .act-description h1,
 .cft-description h1,
-.dit-description h1 {
+.dit-description h1,
+.emdr-description h1 {
     padding-bottom: 20px;
 }
 
 .act-img,
 .cft-img,
 .cbt-img,
-.dit-img {
+.dit-img,
+.emdr-img {
     width: 100%;
 }
 
@@ -922,7 +928,8 @@ select,
     .cbt-container h1,
     .act-container h1,
     .cft-container h1,
-    .dit-container h1 {
+    .dit-container h1,
+    .emdr-container h1 {
         font-size: 24px;
     }
 
@@ -1003,7 +1010,8 @@ select,
 
     .act-container h1,
     .cft-container h1,
-    .dit-container h1 {
+    .dit-container h1,
+    .emdr-container h1 {
         top: 6%;
         right: 10%;
     }
@@ -1011,7 +1019,8 @@ select,
     .cbt-description,
     .act-description,
     .cft-description,
-    .dit-description {
+    .dit-description,
+    .emdr-description {
         padding: 20px 100px 40px 100px;
     }
 }
@@ -1086,7 +1095,8 @@ select,
 
     .act-container h1,
     .cft-container h1,
-    .dit-container h1 {
+    .dit-container h1,
+    .emdr-container h1 {
         top: 4%;
         right: 10%;
     }
@@ -1094,7 +1104,8 @@ select,
     .cbt-description,
     .act-description,
     .cft-description,
-    .dit-description {
+    .dit-description,
+    .emdr-description {
         padding: 20px 80px 40px 80px;
     }
 }
@@ -1114,7 +1125,8 @@ select,
     .cbt-container h1,
     .act-container h1,
     .cft-container h1,
-    .dit-container h1 {
+    .dit-container h1,
+    .emdr-container h1 {
         font-size: 22px;
     }
     .welcome-text h3,
@@ -1173,7 +1185,8 @@ select,
 
     .act-container h1,
     .cft-container h1,
-    .dit-container h1 {
+    .dit-container h1,
+    .emdr-container h1 {
         top: 2%;
         right: 3%;
     }
@@ -1181,7 +1194,8 @@ select,
     .cbt-description,
     .act-description,
     .cft-description,
-    .dit-description {
+    .dit-description,
+    .emdr-description {
         padding: 20px 50px 40px 50px;
     }
 }
@@ -1227,7 +1241,8 @@ select,
         left: 0;
     }
     .act-container h1,
-    .cft-container h1 {
+    .cft-container h1,
+    .emdr-container h1 {
         font-size: 18px;
     }
 }
