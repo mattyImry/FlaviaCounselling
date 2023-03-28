@@ -618,6 +618,22 @@ a {
 
 /* FAQ */
 
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.faq-container h1 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: var(--link-color);
+}
+.faq-img {
+    width: 100%;
+}
+
 .div-btn-faq {
     padding: 10px 0 10px 0;
 }
