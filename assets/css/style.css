@@ -626,9 +626,8 @@ a {
 
 .faq-container h1 {
     position: absolute;
-    top: 15%;
-    left: 15%;
-
+    top: 10%;
+    left: 10%;
     font-size: 42px;
 }
 .faq-img {
@@ -968,7 +967,8 @@ select,
     .dit-container h1,
     .emdr-title1,
     .emdr-title2,
-    .online-container h1 {
+    .online-container h1,
+    .faq-container h1 {
         font-size: 24px;
     }
 
@@ -1042,7 +1042,8 @@ select,
         height: auto;
     }
 
-    .cbt-container h1 {
+    .cbt-container h1,
+    .faq-container h1 {
         top: 6%;
         left: 10%;
     }
@@ -1065,7 +1066,8 @@ select,
     .cft-description,
     .dit-description,
     .emdr-description,
-    .online-description {
+    .online-description,
+    .faq-description {
         padding: 20px 100px 40px 100px;
     }
 }
@@ -1144,7 +1146,8 @@ select,
     .act-container h1,
     .cft-container h1,
     .dit-container h1,
-    .online-container h1 {
+    .online-container h1,
+    .faq-container h1 {
         top: 4%;
         right: 10%;
     }
@@ -1164,7 +1167,8 @@ select,
     .cft-description,
     .dit-description,
     .emdr-description,
-    .online-description {
+    .online-description,
+    .faq-description {
         padding: 20px 80px 40px 80px;
     }
 }
@@ -1186,7 +1190,8 @@ select,
     .cft-container h1,
     .dit-container h1,
     .emdr-container h1,
-    .online-container h1 {
+    .online-container h1,
+    .faq-container h1 {
         font-size: 22px;
     }
     .welcome-text h3,
@@ -1247,7 +1252,8 @@ select,
     .cft-container h1,
     .dit-container h1,
     .emdr-container h1,
-    .online-container h1 {
+    .online-container h1,
+    .faq-container h1 {
         top: 2%;
         right: 3%;
     }
@@ -1257,7 +1263,8 @@ select,
     .cft-description,
     .dit-description,
     .emdr-description,
-    .online-description {
+    .online-description,
+    .faq-description {
         padding: 20px 50px 40px 50px;
     }
 }
@@ -1307,6 +1314,11 @@ select,
     .emdr-container h1,
     .online-container h1 {
         font-size: 18px;
+    }
+
+    .faq-container h1 {
+        font-size: 18px;
+        top: 1%;
     }
 }
 
