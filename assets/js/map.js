@@ -1,5 +1,3 @@
-console.log('map works!')
-
 function initMap() {
 
     const practice_fla = new google.maps.LatLng(51.5254613304083, -0.09635282977019068);
@@ -15,7 +13,7 @@ function initMap() {
                                         EC1V 8AB  
                                     </h3>
                                     <h4>
-                                        <a  href="https://www.google.com/maps/dir//45+Central+St,+London+EC1V+8AB/@51.5254993,-0.1314781,13z/           data=!4m8!4m7!1m0!1m5!1m1!1s0x48761b57875c84a9:0x2b96d66223772f80!2m2!1d-0.0964588!2d51.5254511" target="_blank"> <i class="fa-solid fa-location-arrow" style="margin-right: 5px;"></i>Direction</a>
+                                        <a  href="https://www.google.com/maps/dir//45+Central+St,+London+EC1V+8AB/@51.5254993,-0.1314781,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x48761b57875c84a9:0x2b96d66223772f80!2m2!1d-0.0964588!2d51.5254511" target="_blank"> <i class="fa-solid fa-location-arrow" style="margin-right: 5px;"></i>Direction</a>
                                     </h4>
                                 </div>`
                                 
@@ -34,7 +32,7 @@ function initMap() {
     });
 
     marker.addListener("click", () => {
-        window.open ("https://www.google.com/maps/dir//45+Central+St,+London+EC1V+8AB/@51.5254993,-0.1314781,13z/           data=!4m8!4m7!1m0!1m5!1m1!1s0x48761b57875c84a9:0x2b96d66223772f80!2m2!1d-0.0964588!2d51.5254511" ,'_blank');
+        window.open ("https://www.google.com/maps/dir//45+Central+St,+London+EC1V+8AB/@51.5254993,-0.1314781,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x48761b57875c84a9:0x2b96d66223772f80!2m2!1d-0.0964588!2d51.5254511" ,'_blank');
     })
 
     infowindow.open(map, marker);
