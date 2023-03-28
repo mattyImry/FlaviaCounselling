@@ -626,12 +626,22 @@ a {
 
 .faq-container h1 {
     position: absolute;
-    top: 10%;
-    left: 10%;
-    color: var(--link-color);
+    top: 15%;
+    left: 15%;
+
+    font-size: 42px;
 }
 .faq-img {
     width: 100%;
+}
+
+.faq-description {
+    text-align: justify;
+    padding: 20px 150px 40px 150px;
+}
+
+.faq-description h4 {
+    padding: 20px 0 10px 0;
 }
 
 .div-btn-faq {
@@ -724,6 +734,7 @@ select,
 }
 
 /* THERAPIES PAGE */
+/* FAQ PAGE */
 
 .cbt-container,
 .act-container,
