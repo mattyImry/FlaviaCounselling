@@ -90,8 +90,8 @@ a {
     display: none;
     position: absolute;
     width: 100%;
-    overflow: auto;
-    padding: 10px;
+
+    padding: 5px;
     box-shadow: 0px 10px 10px 1px rgba(0, 0, 0, 0.4);
     z-index: 1;
     background-color: var(--nav-bg-color, teal);
