@@ -637,6 +637,7 @@ a {
     top: 10%;
     left: 10%;
     font-size: 42px;
+    animation: 1s fade-left ease-in;
 }
 .faq-img {
     width: 100%;
@@ -645,6 +646,7 @@ a {
 .faq-description {
     text-align: justify;
     padding: 20px 150px 40px 150px;
+    animation: 1s fade-bottom;
 }
 
 .faq-description h4 {
@@ -659,6 +661,7 @@ a {
 
 .main-title {
     text-align: center;
+    padding: 40px 0 20px 0;
 }
 
 .main-contact {
@@ -758,7 +761,7 @@ select,
     position: absolute;
     top: 10%;
     left: 10%;
-    animation: 1s slide-right;
+    animation: 1s fade-left ease-in;
 }
 
 .act-container h1,
