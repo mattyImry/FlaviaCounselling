@@ -504,6 +504,7 @@ a {
 .about-content-text h1 {
     padding-top: 50px;
     text-align: justify;
+    animation: 1.5s fade-left;
 }
 
 .about-banner h3 {
@@ -523,12 +524,14 @@ a {
 .about-img {
     max-height: 500px;
     margin-top: 50px;
+    animation: 1.5s fade-right;
 }
 
 .approach {
     display: flex;
     justify-content: space-evenly;
     background-color: #b592a0;
+    animation: 1.5s fade-bottom;
 }
 .approach h2 {
     text-align: center;
