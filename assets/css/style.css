@@ -660,13 +660,22 @@ a {
 /* CONTACT PAGE */
 
 .main-title {
-    text-align: center;
-    padding: 40px 0 20px 0;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 32px;
+    color: var(--link-color, white);
 }
 
 .main-contact {
+    display: flex;
+    flex-direction: column;
+    position: relative;
     background-color: var(--sec-bg-color);
-    height: 1200px;
+}
+
+.contact-banner {
+    width: 100%;
 }
 
 .form-container {
@@ -706,12 +715,10 @@ select,
 
 .cont {
     display: flex;
-    height: 60%;
-    margin-top: 20px;
+    padding: 20px 0 40px 0;
 }
 
 #map {
-    height: 50%;
     width: 50%;
 }
 
@@ -720,10 +727,9 @@ select,
 }
 
 .contact-info {
+    display: flex;
     text-align: left;
-    height: 100%;
-    padding-left: 50px;
-    padding-top: 50px;
+    padding: 50px 0 50px 50px;
 }
 
 .contact-info li {
