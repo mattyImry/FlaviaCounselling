@@ -659,7 +659,7 @@ a {
 
 /* CONTACT PAGE */
 
-.main-title {
+.contact-title {
     position: absolute;
     top: 10%;
     left: 10%;
@@ -715,21 +715,19 @@ select,
 
 .cont {
     display: flex;
-    padding: 20px 0 40px 0;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 #map {
     width: 50%;
-}
-
-.map-div {
     margin-left: 15%;
 }
 
 .contact-info {
     display: flex;
     text-align: left;
-    padding: 50px 0 50px 50px;
+    padding: 50px 20px 50px 50px;
 }
 
 .contact-info li {
@@ -990,7 +988,8 @@ select,
     .emdr-title1,
     .emdr-title2,
     .online-container h1,
-    .faq-container h1 {
+    .faq-container h1,
+    .contact-title {
         font-size: 24px;
     }
 
@@ -1065,7 +1064,8 @@ select,
     }
 
     .cbt-container h1,
-    .faq-container h1 {
+    .faq-container h1,
+    .contact-title {
         top: 6%;
         left: 10%;
     }
@@ -1091,6 +1091,10 @@ select,
     .online-description,
     .faq-description {
         padding: 20px 100px 40px 100px;
+    }
+
+    .gmnoprint {
+        display: none;
     }
 }
 
@@ -1169,7 +1173,8 @@ select,
     .cft-container h1,
     .dit-container h1,
     .online-container h1,
-    .faq-container h1 {
+    .faq-container h1,
+    .contact-title {
         top: 4%;
         right: 10%;
     }
@@ -1201,6 +1206,25 @@ select,
     .modalContent {
         display: none;
     }
+
+    .cont {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #map {
+        width: 100%;
+        height: 250px;
+        margin-left: 0;
+    }
+
+    .contact-info {
+        display: inline;
+        padding: 50px 20px 50px 20px;
+    }
 }
 
 @media (max-width: 504px) {
@@ -1221,7 +1245,8 @@ select,
     .dit-container h1,
     .emdr-container h1,
     .online-container h1,
-    .faq-container h1 {
+    .faq-container h1,
+    .contact-title {
         font-size: 22px;
     }
     .welcome-text h3,
@@ -1255,24 +1280,6 @@ select,
         font-size: 10px;
     }
 
-    #map {
-        height: 35%;
-        margin-top: 20px;
-    }
-
-    .map-div {
-        margin-left: 25%;
-    }
-
-    .cont {
-        flex-direction: column;
-    }
-
-    .contact-info {
-        padding-left: 0;
-        padding-top: 50px;
-    }
-
     .cbt-container h1 {
         top: 2%;
         left: 10%;
@@ -1283,7 +1290,8 @@ select,
     .dit-container h1,
     .emdr-container h1,
     .online-container h1,
-    .faq-container h1 {
+    .faq-container h1,
+    .contact-title {
         top: 2%;
         right: 3%;
     }
@@ -1342,7 +1350,8 @@ select,
     .act-container h1,
     .cft-container h1,
     .emdr-container h1,
-    .online-container h1 {
+    .online-container h1,
+    .contact-title {
         font-size: 18px;
     }
 
