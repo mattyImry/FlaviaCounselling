@@ -15,6 +15,10 @@
     --second-font: "Antic Dicone";
 }
 
+h1 {
+    font-size: 32px;
+}
+
 body {
     font-family: var(--main-font, sans-serif);
 }
@@ -229,7 +233,6 @@ a {
 
 .experties h1 {
     padding: 40px 0 40px 0;
-    font-size: 32px;
 }
 
 .experties-icons {
@@ -302,10 +305,6 @@ a {
     padding: 20px 0 40px;
 }
 
-.therapies-text h1 {
-    font-size: 32px;
-}
-
 .therapies-text p,
 .therapies-text h1 {
     padding-top: 20px;
@@ -367,7 +366,6 @@ a {
 .services h1 {
     text-align: center;
     padding: 20px 0;
-    font-size: 32px;
 }
 
 .services p {
@@ -418,10 +416,6 @@ a {
 .testimonial {
     display: flex;
     flex-direction: column;
-}
-
-.testimonial h1 {
-    font-size: 32px;
 }
 
 .mySlides {
@@ -821,6 +815,32 @@ select,
     padding-left: 50px;
 }
 
+/* TERMS PAGE */
+
+.term-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.term-title {
+    text-align: center;
+    padding: 40px 0 20px 0;
+}
+
+.term-warning {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.term-content {
+    text-align: justify;
+    padding: 20px 150px 40px 150px;
+}
+
+.term-content h4 {
+    padding: 20px 0 20px 0;
+}
+
 /*FOOTER*/
 
 .footer {
@@ -1081,7 +1101,8 @@ select,
     .dit-description,
     .emdr-description,
     .online-description,
-    .faq-description {
+    .faq-description,
+    .term-content {
         padding: 20px 100px 40px 100px;
     }
 
@@ -1187,7 +1208,8 @@ select,
     .dit-description,
     .emdr-description,
     .online-description,
-    .faq-description {
+    .faq-description,
+    .term-content {
         padding: 20px 80px 40px 80px;
     }
 
@@ -1294,7 +1316,8 @@ select,
     .dit-description,
     .emdr-description,
     .online-description,
-    .faq-description {
+    .faq-description,
+    .term-content {
         padding: 20px 50px 40px 50px;
     }
 }
