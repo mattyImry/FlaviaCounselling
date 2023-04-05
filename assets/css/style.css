@@ -735,13 +735,15 @@ select,
 
 /* THERAPIES PAGE */
 /* FAQ PAGE */
+/* CONSULATION PAGE */
 
 .cbt-container,
 .act-container,
 .cft-container,
 .dit-container,
 .emdr-container,
-.online-container {
+.online-container,
+.consultation-container {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -764,7 +766,8 @@ select,
 }
 
 .cft-container h1,
-.online-container h1 {
+.online-container h1,
+.consultation-title {
     position: absolute;
     top: 10%;
     right: 10%;
@@ -787,7 +790,8 @@ select,
 .cft-description,
 .dit-description,
 .emdr-description,
-.online-description {
+.online-description,
+.consultation-description {
     text-align: justify;
     padding: 20px 150px 40px 150px;
     animation: 1s fade-bottom;
@@ -798,7 +802,8 @@ select,
 .cft-description h4,
 .dit-description h4,
 .emdr-description h4,
-.online-description h4 {
+.online-description h4,
+.consultation-description p {
     padding: 20px 0 10px 0;
 }
 
@@ -807,12 +812,21 @@ select,
 .cbt-img,
 .dit-img,
 .emdr-img,
-.online-img {
+.online-img,
+.consultation-img {
     width: 100%;
 }
 
 .online-list {
     padding-left: 50px;
+}
+
+.consultation-btn {
+    padding-top: 10px;
+}
+
+.btn-services.consultation {
+    width: fit-content;
 }
 
 /* TERMS PAGE */
@@ -1001,7 +1015,8 @@ select,
     .emdr-title2,
     .online-container h1,
     .faq-container h1,
-    .contact-title {
+    .contact-title,
+    .consultation-title {
         font-size: 24px;
     }
 
@@ -1085,7 +1100,8 @@ select,
     .act-container h1,
     .cft-container h1,
     .dit-container h1,
-    .online-container h1 {
+    .online-container h1,
+    .consultation-title {
         top: 6%;
         right: 10%;
     }
@@ -1102,7 +1118,8 @@ select,
     .emdr-description,
     .online-description,
     .faq-description,
-    .term-content {
+    .term-content,
+    .consultation-description {
         padding: 20px 100px 40px 100px;
     }
 
@@ -1187,7 +1204,8 @@ select,
     .dit-container h1,
     .online-container h1,
     .faq-container h1,
-    .contact-title {
+    .contact-title,
+    .consultation-title {
         top: 4%;
         right: 10%;
     }
@@ -1209,7 +1227,8 @@ select,
     .emdr-description,
     .online-description,
     .faq-description,
-    .term-content {
+    .term-content,
+    .consultation-description {
         padding: 20px 80px 40px 80px;
     }
 
@@ -1260,7 +1279,8 @@ select,
     .emdr-container h1,
     .online-container h1,
     .faq-container h1,
-    .contact-title {
+    .contact-title,
+    .consultation-title {
         font-size: 22px;
     }
     .welcome-text h3,
@@ -1305,7 +1325,8 @@ select,
     .emdr-container h1,
     .online-container h1,
     .faq-container h1,
-    .contact-title {
+    .contact-title,
+    .consultation-title {
         top: 2%;
         right: 3%;
     }
@@ -1317,7 +1338,8 @@ select,
     .emdr-description,
     .online-description,
     .faq-description,
-    .term-content {
+    .term-content,
+    .consultation-description {
         padding: 20px 50px 40px 50px;
     }
 }
@@ -1362,11 +1384,13 @@ select,
     .emdr {
         left: 0;
     }
+
     .act-container h1,
     .cft-container h1,
     .emdr-container h1,
     .online-container h1,
-    .contact-title {
+    .contact-title,
+    .consultation-title {
         font-size: 18px;
     }
 
