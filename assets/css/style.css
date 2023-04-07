@@ -1015,7 +1015,8 @@ select,
     .online-container h1,
     .faq-container h1,
     .contact-title,
-    .consultation-title {
+    .consultation-title,
+    .supervision-container h1 {
         font-size: 24px;
     }
 
@@ -1118,7 +1119,8 @@ select,
     .online-description,
     .faq-description,
     .term-content,
-    .consultation-description {
+    .consultation-description,
+    .supervision-description {
         padding: 20px 100px 40px 100px;
     }
 
@@ -1193,7 +1195,8 @@ select,
         width: 100%;
     }
 
-    .cbt-container h1 {
+    .cbt-container h1,
+    .supervision-container h1 {
         top: 4%;
         left: 10%;
     }
@@ -1204,7 +1207,8 @@ select,
     .online-container h1,
     .faq-container h1,
     .contact-title,
-    .consultation-title {
+    .consultation-title,
+    .supervision-container h1 {
         top: 4%;
         right: 10%;
     }
@@ -1227,7 +1231,8 @@ select,
     .online-description,
     .faq-description,
     .term-content,
-    .consultation-description {
+    .consultation-description,
+    .supervision-description {
         padding: 20px 80px 40px 80px;
     }
 
@@ -1279,7 +1284,8 @@ select,
     .online-container h1,
     .faq-container h1,
     .contact-title,
-    .consultation-title {
+    .consultation-title,
+    .supervision-container h1 {
         font-size: 22px;
     }
     .welcome-text h3,
@@ -1338,7 +1344,8 @@ select,
     .online-description,
     .faq-description,
     .term-content,
-    .consultation-description {
+    .consultation-description,
+    .supervision-description {
         padding: 20px 50px 40px 50px;
     }
 }
@@ -1389,7 +1396,8 @@ select,
     .emdr-container h1,
     .online-container h1,
     .contact-title,
-    .consultation-title {
+    .consultation-title,
+    .supervision-container h1 {
         font-size: 18px;
     }
 
