@@ -743,10 +743,19 @@ select,
 .dit-container,
 .emdr-container,
 .online-container,
-.consultation-container {
+.consultation-container,
+.supervision-container {
     display: flex;
     flex-direction: column;
     position: relative;
+}
+
+.supervision-container h1 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    animation: 1s fade-left ease-in;
+    color: var(--link-color);
 }
 
 .cbt-container h1 {
@@ -791,7 +800,8 @@ select,
 .dit-description,
 .emdr-description,
 .online-description,
-.consultation-description {
+.consultation-description,
+.supervision-description {
     text-align: justify;
     padding: 20px 150px 40px 150px;
     animation: 1s fade-bottom;
@@ -813,7 +823,8 @@ select,
 .dit-img,
 .emdr-img,
 .online-img,
-.consultation-img {
+.consultation-img,
+.supervision-img {
     width: 100%;
 }
 
@@ -821,8 +832,8 @@ select,
     padding-left: 50px;
 }
 
-.consultation-btn {
-    padding-top: 10px;
+.supervision-btn {
+    padding-top: 20px;
 }
 
 .btn-services.consultation {
@@ -936,18 +947,6 @@ select,
 }
 
 /*MEDIA QUERIES */
-
-@media (max-width: 1800px) {
-}
-
-@media (max-width: 1650px) {
-    .main-text {
-        font-size: 32px;
-    }
-}
-
-@media (max-width: 1256px) {
-}
 
 @media (max-width: 1200px) {
     .welcome-text {
