@@ -7,38 +7,19 @@
 }
 
 :root {
-    --nav-bg-color: #bbc8ca;
-    --sec-bg-color: #c7ffed;
-    --hover-color: #b592a0;
     --link-color: #fafafa;
     --main-font: "Montserrat";
     --second-font: "Antic Dicone";
 
-    /* Green and Purple palette 1*/
-
-    --p1-1-color: #656044;
-    --p1-2-color: #dccdd1;
     /* hover */
     --p1-3-color: #ada2ac;
     /* background about me */
     --p1-3-color: #ada2ac2d;
-
     --p1-4-color: #b3b497;
-
-    /* GREEN PALETTE palette2 */
-    --p2-1-color: #5d8737;
-    --p2-2-color: #5d8737;
-    --p2-3-color: #5d8737;
 
     /* background experties, my approach */
     --p2-4-color: #9ab0a5;
-
     --contact-color: #dccdd1;
-
-    /* GREEN PALETTE palette3 */
-    --p3-1-color: #aaaca9;
-    --p3-2-color: #aaaca9;
-    --p3-3-color: #aaaca9;
 
     /* nav btns */
     --p3-4-color: #cad3cf;
