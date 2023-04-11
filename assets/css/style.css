@@ -18,19 +18,30 @@
 
     --p1-1-color: #656044;
     --p1-2-color: #dccdd1;
+    /* hover */
     --p1-3-color: #ada2ac;
+    /* background about me */
+    --p1-3-color: #ada2ac2d;
+
     --p1-4-color: #b3b497;
 
     /* GREEN PALETTE palette2 */
     --p2-1-color: #5d8737;
     --p2-2-color: #5d8737;
     --p2-3-color: #5d8737;
+
+    /* background experties, my approach */
     --p2-4-color: #9ab0a5;
+
+    --contact-color: #dccdd1;
 
     /* GREEN PALETTE palette3 */
     --p3-1-color: #aaaca9;
     --p3-2-color: #aaaca9;
     --p3-3-color: #aaaca9;
+
+    /* nav btns */
+    --p3-4-color: #cad3cf;
 }
 
 h1 {
@@ -45,6 +56,10 @@ a {
     text-decoration: none;
 }
 
+button {
+    background-color: var(--p3-4-color);
+}
+
 /* NAVBAR STYLING STARTS */
 
 .navbar {
@@ -52,7 +67,7 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: var(--nav-bg-color, teal);
+    background-color: var(--p3-4-color, teal);
     color: var(--link-color, #fff);
 }
 
@@ -79,7 +94,7 @@ a {
 .menu li:hover,
 .footer li:hover,
 .sub-footer li:hover {
-    background-color: var(--hover-color);
+    background-color: var(--p1-3-color);
     border-radius: 5px;
     transition: 0.3s ease;
 }
@@ -112,24 +127,23 @@ a {
     display: none;
     position: absolute;
     width: 100%;
-
     padding: 5px;
     box-shadow: 0px 10px 10px 1px rgba(0, 0, 0, 0.4);
     z-index: 1;
-    background-color: var(--nav-bg-color, teal);
+    background-color: var(--p3-4-color);
 }
 .dropdown:hover .dropdown-content {
     display: block;
 }
 .dropdown-content a {
     display: block;
-    color: var(--link-color, #fff);
+    color: var(--link-color);
     padding: 5px;
     text-decoration: none;
 }
 .dropdown-content a:hover {
-    color: #ffffff;
-    background-color: #00a4bd;
+    color: var(--link-color);
+    background-color: var(--p1-3-color);
 }
 
 .btn-dropDown {
@@ -246,7 +260,7 @@ a {
 
 .experties {
     text-align: center;
-    background-color: rgb(255, 158, 158);
+    background-color: var(--p2-4-color);
 }
 
 .experties h1 {
@@ -484,7 +498,8 @@ a {
 
 .about-banner {
     display: flex;
-    background-image: url(/assets/images/background_about_me.jpg);
+    background-color: var(--p1-3-color);
+    /* background-image: url(/assets/images/background_about_me.jpg); */
     background-repeat: no-repeat;
 }
 
@@ -527,7 +542,7 @@ a {
 .approach {
     display: flex;
     justify-content: space-evenly;
-    background-color: #b592a0;
+    background-color: var(--p2-4-color);
     animation: 1.5s fade-bottom;
 }
 .approach h2 {
@@ -661,7 +676,7 @@ a {
     top: 10%;
     left: 10%;
     font-size: 32px;
-    color: var(--link-color, white);
+    color: var(--link-color);
     animation: 1s fade-left;
 }
 
@@ -669,7 +684,7 @@ a {
     display: flex;
     flex-direction: column;
     position: relative;
-    background-color: var(--sec-bg-color);
+    background-color: var(--contact-color);
 }
 
 .contact-banner {
@@ -719,8 +734,10 @@ select,
 
 .cont {
     display: flex;
+    margin: 30px;
     padding-bottom: 30px;
     padding-top: 30px;
+    background-color: var(--p2-4-color);
 }
 
 #map {
@@ -893,7 +910,7 @@ select,
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background-color: var(--nav-bg-color, teal);
+    background-color: var(--p3-4-color);
     color: var(--link-color, #fff);
     gap: 1em;
 }
@@ -904,14 +921,14 @@ select,
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background-color: var(--nav-bg-color, teal);
+    background-color: var(--p3-4-color);
     color: var(--link-color, #fff);
     gap: 1em;
 }
 .logos-footer {
     text-align: center;
 
-    background-color: var(--nav-bg-color, teal);
+    background-color: var(--p3-4-color);
     color: var(--link-color, #fff);
     gap: 1em;
 }
@@ -993,7 +1010,7 @@ select,
     .menu {
         display: none;
         position: absolute;
-        background-color: var(--nav-bg-color, teal);
+        background-color: var(--p3-4-color);
         right: 0px;
         text-align: center;
         padding: 16px 0;
