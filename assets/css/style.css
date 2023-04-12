@@ -936,7 +936,7 @@ select,
 }
 
 .step {
-    background-image: url("../images/next_step.jpg");
+    background-image: url("../../images/next_step.jpg");
     height: 500px;
     display: flex;
     flex-direction: column;
