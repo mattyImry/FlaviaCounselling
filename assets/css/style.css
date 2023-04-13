@@ -1167,7 +1167,9 @@ select,
 
     .about-img-div {
         text-align: center;
-        padding-bottom: 15px;
+        /* padding-bottom: 15px;
+        padding-right: 0; */
+        padding: 0 0 15px 0;
     }
 
     .approach {
