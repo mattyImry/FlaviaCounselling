@@ -672,6 +672,12 @@ button {
     width: 100%;
 }
 
+.label-contact {
+    width: 50%;
+    font-family: var(--main-font, sans-serif);
+    font-weight: 500;
+}
+
 .form-container {
     width: 100%;
     align-content: center;
