@@ -206,7 +206,7 @@ button {
     text-align: center;
 }
 
-.hi-text h3 {
+.hi-text h4 {
     text-align: justify;
     padding: 20px 200px 20px 200px;
     line-height: 30px;
@@ -975,7 +975,7 @@ select,
         padding-top: 3%;
         padding-right: 5%;
     }
-    .hi-text h3 {
+    .hi-text h4 {
         padding: 20px 100px 20px 100px;
     }
 }
@@ -985,7 +985,7 @@ select,
         margin-top: 5px;
     }
 
-    .hi-text h3 {
+    .hi-text h4 {
         padding: 20px 40px 20px 40px;
     }
 }
@@ -1043,7 +1043,7 @@ select,
     }
 
     .welcome-text h4,
-    .hi-text h3 {
+    .hi-text h4 {
         font-size: 16px;
         line-height: 20px;
     }
@@ -1053,7 +1053,7 @@ select,
         font-size: 24px;
     }
 
-    .hi-text h3 {
+    .hi-text h4 {
         padding-top: 15px;
         padding-bottom: 15px;
 
@@ -1311,7 +1311,7 @@ select,
         font-size: 22px;
     }
     .welcome-text h3,
-    .hi-text h3 {
+    .hi-text h4 {
         padding-top: 15px;
         padding-bottom: 15px;
         font-size: 15px;
