@@ -13,8 +13,9 @@
 
     /* hover */
     --p1-3-color: #ada2ac;
+
     /* background about me */
-    --p1-3-color: #ada2ac2d;
+    --p1-about-color: #ada2ac2d;
     --p1-4-color: #b3b497;
 
     /* background experties, my approach */
@@ -327,7 +328,7 @@ button {
     display: grid;
     height: 100%;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    background-color: rgb(226, 186, 186);
+    background-color: #ada2ac;
 }
 
 .therapy-type figure {
@@ -350,7 +351,6 @@ button {
 
 .therapy-type figure img {
     width: 100%;
-
     filter: brightness(50%);
 }
 
@@ -390,6 +390,7 @@ button {
     flex-direction: row;
     justify-content: center;
     text-align: center;
+    /* align-items: flex-start; */
 }
 
 .service-items {
@@ -479,7 +480,7 @@ button {
 
 .about-banner {
     display: flex;
-    background-color: var(--p1-3-color);
+    background-color: var(--p1-about-color);
     /* background-image: url(/assets/images/background_about_me.jpg); */
     background-repeat: no-repeat;
 }
@@ -1326,6 +1327,10 @@ select,
         text-align: center;
         padding-left: 0;
     }
+
+    .services-cards {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 449px) {
@@ -1373,10 +1378,6 @@ select,
 }
 
 @media (max-width: 375px) {
-    .services-cards {
-        flex-direction: column;
-    }
-
     .btn-individual,
     .btn-online,
     .btn-supervision {
