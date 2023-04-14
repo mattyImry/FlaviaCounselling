@@ -174,7 +174,7 @@ button {
 }
 
 .welcome-text {
-    padding: 50px 15% 20px 20%;
+    padding: 100px 5% 20px 10%;
     line-height: 30px;
 }
 
@@ -191,9 +191,9 @@ button {
 }
 
 .img-welcome {
-    width: 30%;
-    height: 50%;
+    width: 40%;
     padding: 50px;
+    margin-left: 100px;
 }
 
 .hi {
@@ -208,7 +208,7 @@ button {
 
 .hi-text h4 {
     text-align: justify;
-    padding: 20px 200px 20px 200px;
+    padding: 20px 200px 20px 150px;
     line-height: 30px;
     font-weight: 900;
     font-size: 16px;
