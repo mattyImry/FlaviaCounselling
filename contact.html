@@ -17,10 +17,7 @@
             crossorigin="anonymous"
         ></script>
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-        <script
-            type="text/javascript"
-            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-        ></script>
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
         <script
             async
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaqtbohZtu5co2-wp8Q6MA0EbdhQHUxVw&libraries=places&callback=initMap"
@@ -79,7 +76,7 @@
         <section class="main-contact">
             <div>
                 <img
-                    src="assets\images\contact_banner.jpg"
+                    src="assets/images/contact_banner.jpg"
                     alt="mobile phone , pen and pen on table"
                     class="contact-banner"
                 />
@@ -97,8 +94,8 @@
                     <input
                         type="text"
                         class="name-input namebox"
-                        id="name"
-                        name="name"
+                        id="fullname"
+                        name="fullname"
                         placeholder="Full Name *"
                         required
                     />
@@ -108,17 +105,17 @@
                         type="email"
                         class="emailbox"
                         name="emailaddress"
-                        id="exampleInputEmail1"
+                        id="email"
                         placeholder="Email *"
                         required
                     />
-                    <label for="phone" class="label-contact">Phone number:</label>
+                    <label for="tel" class="label-contact">Phone number:</label>
 
                     <input
-                        type="phone"
+                        type="tel"
                         class="phone"
                         name="phone"
-                        id="exampleInputphone"
+                        id="tel"
                         placeholder="Phone number *"
                         required
                     />
@@ -127,7 +124,7 @@
                     <textarea
                         class="messagebox"
                         name="message"
-                        id="exampleFormControlTextarea1"
+                        id="message"
                         rows="4"
                         placeholder="Message *"
                         required
@@ -143,6 +140,7 @@
                             class="drop-contact"
                             required
                         >
+                            <option value="">Please select one option</option>
                             <option value="aviva">Aviva</option>
                             <option value="bupa">Bupa</option>
                             <option value="axa">Axa</option>
@@ -154,7 +152,7 @@
                         </select>
                     </div>
                     <div class="over18">
-                        <label for="over 18">Are you over 18 ? *</label>
+                        <label for="over18">Are you over 18 ? *</label>
                         <input
                             type="checkbox"
                             id="over18"
