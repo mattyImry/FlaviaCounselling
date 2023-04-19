@@ -25,14 +25,14 @@ function openModal(id) {
 modalOpen.onclick = function() {
   let currentID = modalOpen.getAttribute('id');
   openModal(currentID);
-}
+};
 
 // When the user clicks anywhere outside of the modal or the X, close
 window.onclick = function(event) {
   if (event.target == currentModal || event.target.getAttribute('class') == 'modalClose') {
     currentModal.style.display = "none";
   }
-}
+};
 
 
 //ANIMATION
