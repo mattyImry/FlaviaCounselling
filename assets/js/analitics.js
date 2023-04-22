@@ -32,7 +32,7 @@ window.addEventListener("load", function () {
 function myScripts() {
     // Paste here your scripts that use cookies requiring consent. See examples below
 
-    //SET UP GOOGLE ANALITICS AND ADD ID
+    //SET UP GOOGLE ANALITICS AND ADD ID FOLLOW https://2gdpr.com/cookieconsent
 
     // Google Analytics, you need to change 'UA-00000000-1' to your ID
     (function (i, s, o, g, r, a, m) {
