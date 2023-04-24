@@ -863,14 +863,17 @@ select,
     width: fit-content;
 }
 
-/* TERMS PAGE */
+/* TERMS PAGE
+PRIVACY PAGE */
 
-.term-container {
+.term-container,
+.privacy-container {
     display: flex;
     flex-direction: column;
 }
 
-.term-title {
+.term-title,
+.privacy-title {
     text-align: center;
     padding: 40px 0 20px 0;
 }
@@ -880,12 +883,14 @@ select,
     padding: 20px 0 20px 0;
 }
 
-.term-content {
+.term-content,
+.privacy-content {
     text-align: justify;
     padding: 20px 150px 40px 150px;
 }
 
-.term-content h4 {
+.term-content h4,
+.privacy-content h4 {
     padding: 20px 0 20px 0;
 }
 
@@ -1142,6 +1147,7 @@ select,
     .online-description,
     .faq-description,
     .term-content,
+    .privacy-content,
     .consultation-description,
     .supervision-description {
         padding: 20px 100px 40px 100px;
@@ -1254,6 +1260,7 @@ select,
     .online-description,
     .faq-description,
     .term-content,
+    .privacy-content,
     .consultation-description,
     .supervision-description {
         padding: 20px 80px 40px 80px;
@@ -1371,6 +1378,7 @@ select,
     .online-description,
     .faq-description,
     .term-content,
+    .privacy-content,
     .consultation-description,
     .supervision-description {
         padding: 20px 50px 40px 50px;
