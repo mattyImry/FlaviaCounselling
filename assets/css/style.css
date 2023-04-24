@@ -903,6 +903,10 @@ PRIVACY PAGE */
     padding: 20px 0 20px 0;
 }
 
+.privacy-content a {
+    text-decoration: underline !important;
+}
+
 /*FOOTER*/
 
 .footer {
