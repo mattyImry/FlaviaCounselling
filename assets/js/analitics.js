@@ -12,7 +12,7 @@ window.addEventListener("load", function () {
                 text: "#679",
             },
             button: {
-                background: "#5de",
+                background: "#ada2ac",
                 text: "#fff",
             },
         },
