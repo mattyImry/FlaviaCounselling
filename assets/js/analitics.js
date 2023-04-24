@@ -54,6 +54,6 @@ function myScripts() {
         "//www.google-analytics.com/analytics.js",
         "ga"
     );
-    ga("create", "UA-00000000-1", "auto");
+    ga("create", "G-5NQP99WKEL", "auto");
     ga("send", "pageview");
 }
