@@ -606,6 +606,11 @@ button {
     padding: 20px 70px 20px 70px;
 }
 
+.my-qualification-text p a {
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+
 .my-experience-text p,
 .my-qualification-text p {
     text-align: justify;
@@ -618,6 +623,9 @@ button {
     text-align: center;
 }
 
+/* .publication {
+    padding-bottom: 20px;
+} */
 /* FAQ */
 
 .faq-container {
