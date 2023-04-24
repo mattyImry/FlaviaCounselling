@@ -623,9 +623,10 @@ button {
     text-align: center;
 }
 
-/* .publication {
-    padding-bottom: 20px;
-} */
+.publication-link,
+.qualif a {
+    text-decoration: underline !important;
+}
 /* FAQ */
 
 .faq-container {
