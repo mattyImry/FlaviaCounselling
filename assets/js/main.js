@@ -51,4 +51,4 @@ function reveal() {
   }
 }
 
-window.addEventListener("scroll", reveal,  {passive: true});
+window.addEventListener("scroll", reveal);
