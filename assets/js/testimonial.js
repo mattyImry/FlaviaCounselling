@@ -1,9 +1,10 @@
 
 // TESTIMONIAL SLIDER AUTOMATIC
-var slideIndex = 0;
+  var slideIndex = 0;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  var myTimer;
+  var myTimer = null;
+  
 
 showSlides();
 
@@ -18,7 +19,11 @@ function showSlides() {
     dots[slideIndex -1].className += " dot-active";
     slides[slideIndex -1].style.display = "block";
     myTimer = setTimeout(showSlides, 6000); // Change image every 5 seconds
+    
 }
+
+
+
 
 // TESTIMONIAL SLIDER MANUAL
 
@@ -31,8 +36,9 @@ function currentSlide(no) {
     slideIndex = no;
     slides[no -1].style.display = "block";
     dots[no -1].className += " dot-active";
-    clearTimeout(myTimer);
     myTimer = setTimeout(showSlides, 6000); // Change image every 5 seconds
+    clearTimeout(myTimer);
+    
 }
 
 function plusSlides(n) {
