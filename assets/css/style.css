@@ -954,6 +954,14 @@ select,
     animation: 1s fade-right ease-in;
 }
 
+/* .consultation-description {
+    position: absolute;
+    text-align: justify;
+    padding: 20px 150px 40px 150px;
+    -webkit-animation: 1s fade-bottom;
+    animation: 1s fade-bottom;
+} */
+
 .emdr-title2 {
     display: none;
 }
@@ -1009,11 +1017,11 @@ select,
     padding-top: 20px;
 }
 
-.btn-services.consultation {
+/* .btn-services.consultation {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-}
+} */
 
 /* TERMS PAGE
 PRIVACY PAGE */
