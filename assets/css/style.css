@@ -269,6 +269,9 @@ button {
 }
 .div-btn-me button {
     cursor: pointer;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 2px;
 }
 
 .experties {
@@ -477,9 +480,9 @@ button {
 .btn-services {
     font-family: var(--main-font, sans-serif);
     font-weight: 600;
-    border-radius: 10px;
+    border-radius: 2px;
     border: 1px solid;
-    padding: 4px;
+    padding: 10px;
     cursor: pointer;
 }
 
@@ -844,9 +847,12 @@ select,
 .btn-faq {
     font-family: var(--main-font, sans-serif);
     font-weight: 600;
-    border-radius: 10px;
     border: 1px solid;
-    padding: 4px;
+    padding: 10px;
+    cursor: pointer;
+
+    padding: 10px;
+    border-radius: 2px;
 }
 
 .cont {
