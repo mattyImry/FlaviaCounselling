@@ -37,6 +37,7 @@ body {
 
 a {
     text-decoration: none;
+    color: var(--link-color, #fff);
 }
 
 button {
@@ -1068,7 +1069,7 @@ PRIVACY PAGE */
     justify-content: center;
     padding: 20px;
     background-color: var(--p3-4-color);
-    color: var(--link-color, #fff);
+
     gap: 1em;
 }
 
@@ -1091,9 +1092,7 @@ PRIVACY PAGE */
 }
 .logos-footer {
     text-align: center;
-
     background-color: var(--p3-4-color);
-    color: var(--link-color, #fff);
     gap: 1em;
 }
 
