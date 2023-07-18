@@ -44,6 +44,14 @@ button {
     background-color: var(--p3-4-color);
 }
 
+input {
+    padding: 10px;
+}
+
+textarea {
+    height: 150px;
+}
+
 /* NAVBAR STYLING STARTS */
 
 .navbar {
