@@ -858,9 +858,14 @@ select,
     border: 1px solid;
     padding: 10px;
     cursor: pointer;
-
     padding: 10px;
     border-radius: 2px;
+}
+
+textarea::placeholder {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 15px;
 }
 
 .cont {
