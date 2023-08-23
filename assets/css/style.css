@@ -730,11 +730,15 @@ textarea {
 .qualification h2 {
     text-align: center;
 }
-.about_page-Link:hover,
-.about_page-Link:active,
+
 .about_page-Link {
-    text-decoration: underline !important;
     color: blue;
+    text-decoration: underline !important;
+}
+
+.about_page-Link:hover,
+.about_page-Link:active {
+    background-color: var(--p1-4-color);
 }
 /* FAQ */
 
