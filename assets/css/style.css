@@ -73,7 +73,9 @@ textarea {
 }
 
 .nav-links a {
-    color: var(--link-color, #fff);
+    /* color: var(--link-color, #fff); */
+    color: black;
+    font-weight: 500;
     text-decoration: none;
 }
 
@@ -125,6 +127,7 @@ textarea {
 .drop-icon i {
     padding-left: 5px;
     padding-top: 3px;
+    color: black;
 }
 .dropdown {
     display: inline-block;
@@ -145,7 +148,8 @@ textarea {
 }
 .dropdown-content a {
     display: block;
-    color: var(--link-color);
+    /* color: var(--link-color); */
+    color: black;
     padding: 5px;
     text-decoration: none;
 }
@@ -156,6 +160,8 @@ textarea {
 
 .btn-dropDown {
     border: none;
+    color: black;
+    font-weight: 500;
 }
 /*RESPONSIVE NAVBAR MENU STARTS*/
 /* CHECKBOX HACK */
