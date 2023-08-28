@@ -219,14 +219,14 @@ textarea {
 }
 
 .welcome-text h1 {
-    text-align: left;
+    text-align: center;
     line-height: 40px;
     -webkit-animation: 1.5s slide-left;
     animation: 1.5s slide-left;
 }
 
 .welcome-text h4 {
-    text-align: justify;
+    text-align: center;
     line-height: 30px;
     padding-top: 10px;
 }
@@ -250,7 +250,7 @@ textarea {
 }
 
 .hi-text h4 {
-    text-align: justify;
+    text-align: center;
     padding: 20px 200px 20px 150px;
     line-height: 30px;
     font-weight: 900;
@@ -1019,7 +1019,7 @@ textarea::placeholder {
 .online-description,
 .consultation-description,
 .supervision-description {
-    text-align: justify;
+    text-align: left;
     padding: 20px 150px 40px 150px;
     -webkit-animation: 1s fade-bottom;
     animation: 1s fade-bottom;
