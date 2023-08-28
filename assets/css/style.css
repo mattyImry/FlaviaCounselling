@@ -23,8 +23,11 @@
     --p2-4-color: #9ab0a5;
     --contact-color: #dccdd1;
 
-    /* nav btns */
-    --p3-4-color: #cad3cf;
+    /* nav btns, footer and nav background */
+    --p3-4-color: #afb6b4;
+
+    /* old color changed 28/8/2023 */
+    /* --p3-4-color: #cad3cf;*/
 }
 
 h1 {
