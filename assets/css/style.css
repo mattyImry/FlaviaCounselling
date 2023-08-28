@@ -40,7 +40,8 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--link-color, #fff);
+    /* color: var(--link-color, #fff); */
+    color: black;
 }
 
 button {
@@ -143,15 +144,15 @@ textarea {
     z-index: 1;
     background-color: var(--p3-4-color);
 }
-.dropdown:hover .dropdown-content {
-    display: block;
-}
 .dropdown-content a {
     display: block;
     /* color: var(--link-color); */
     color: black;
     padding: 5px;
     text-decoration: none;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 .dropdown-content a:hover {
     color: var(--link-color);
@@ -1139,7 +1140,18 @@ PRIVACY PAGE */
     background-color: var(--p3-4-color);
     color: var(--link-color, #fff);
     gap: 1em;
+    font-weight: 500;
 }
+
+.copyright {
+    color: #000;
+}
+
+.sub-footer li:hover:last-child {
+    pointer-events: none !important;
+    background-color: transparent;
+}
+
 .logos-footer {
     text-align: center;
     background-color: var(--p3-4-color);
@@ -1150,6 +1162,7 @@ PRIVACY PAGE */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    font-weight: 500;
 }
 
 .link-footer li,
