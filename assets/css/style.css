@@ -193,7 +193,7 @@ textarea {
     left: 15%;
     font-size: 50px;
     font-family: var(--second-font, sans-serif);
-    font-weight: 500;
+    font-weight: 300;
     -webkit-animation: 1.5s slide-right;
     animation: 1.5s slide-right;
 }
@@ -252,7 +252,6 @@ textarea {
 .hi img {
     width: 40%;
     height: 50%;
-
     padding-right: 30px;
     padding-bottom: 30px;
 }
