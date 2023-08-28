@@ -209,7 +209,7 @@ textarea {
 }
 
 .welcome-text h1 {
-    text-align: center;
+    text-align: left;
     line-height: 40px;
     -webkit-animation: 1.5s slide-left;
     animation: 1.5s slide-left;
@@ -296,6 +296,11 @@ textarea {
     display: grid;
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    transition: transform 0.2s; /* Animation */
+}
+
+.experties-icons img:hover {
+    transform: scale(1.2);
 }
 
 .modalOpen img {
@@ -323,7 +328,7 @@ textarea {
 .modal {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 1000;
     padding-top: 100px;
     left: 0;
     top: 0;
@@ -380,6 +385,11 @@ textarea {
 .therapy-type figure {
     position: relative;
     text-align: center;
+    transition: transform 0.2s; /* Animation */
+}
+
+.therapy-type figure:hover {
+    transform: scale(1.1);
 }
 
 .therapy-type figure figcaption {
