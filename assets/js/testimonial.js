@@ -18,7 +18,7 @@ function showSlides() {
     if (slideIndex > slides.length) {slideIndex = 1};
     dots[slideIndex -1].className += " dot-active";
     slides[slideIndex -1].style.display = "block";
-    myTimer = setTimeout(showSlides, 6000); // Change image every 5 seconds
+    //myTimer = setTimeout(showSlides, 6000); // Change image every 5 seconds
     
 }
 
