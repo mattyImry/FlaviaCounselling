@@ -13,3 +13,6 @@ ABOUT banner
 approach
 .my-experience,
 .qualification
+
+
+new free page use full text for mobile view
