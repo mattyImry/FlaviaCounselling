@@ -1,0 +1,7 @@
+Spacing:
+
+check mobile versions for:
+welcome
+hi
+experties
+therapies

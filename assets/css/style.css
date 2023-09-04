@@ -29,7 +29,7 @@
     /* old color changed 28/8/2023 */
     /* --p3-4-color: #cad3cf;*/
 
-    --m-spaceTopBott: 50px;
+    --m-spaceTopBott: 60px;
 }
 
 h1 {
@@ -212,7 +212,7 @@ textarea {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-bottom: 10px;
+    padding: var(--m-spaceTopBott) 0 var(--m-spaceTopBott) 0;
 }
 
 .welcome-text {
@@ -244,7 +244,7 @@ textarea {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-bottom: 10px;
+    padding: var(--m-spaceTopBott) 0 var(--m-spaceTopBott) 0;
 }
 
 .hi-text h1 {
@@ -377,12 +377,13 @@ textarea {
 
 .therapies-text {
     text-align: center;
-    padding: 20px 0 40px;
+    /* padding: 20px 0 40px; */
+    padding: var(--m-spaceTopBott) 0 120px 0;
 }
 
 .therapies-text p,
 .therapies-text h1 {
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .therapy-type {
