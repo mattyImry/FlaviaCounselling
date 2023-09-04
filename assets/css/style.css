@@ -28,6 +28,8 @@
 
     /* old color changed 28/8/2023 */
     /* --p3-4-color: #cad3cf;*/
+
+    --m-spaceTopBott: 50px;
 }
 
 h1 {
@@ -251,7 +253,7 @@ textarea {
 
 .hi-text h4 {
     text-align: center;
-    padding: 20px 200px 20px 150px;
+    padding: 70px 200px 20px 150px;
     line-height: 30px;
     font-weight: 900;
     font-size: 16px;
@@ -275,6 +277,7 @@ textarea {
     -ms-flex-direction: row;
     flex-direction: row;
     overflow: hidden;
+    margin: var(--m-spaceTopBott) 0 var(--m-spaceTopBott) 0;
 }
 
 .img-value {
