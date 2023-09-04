@@ -7,3 +7,9 @@ experties
 therapies
 services
 testimonial
+
+ABOUT PAGE
+ABOUT banner
+approach
+.my-experience,
+.qualification

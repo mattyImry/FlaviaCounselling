@@ -589,6 +589,7 @@ textarea {
     display: flex;
     background-color: var(--p1-about-color);
     background-repeat: no-repeat;
+    padding: var(--m-spaceTopBott) 0 var(--m-spaceTopBott) 0;
 }
 
 .about-content-text h1 {
@@ -644,6 +645,7 @@ textarea {
     background-color: var(--p2-4-color);
     -webkit-animation: 1.5s fade-bottom;
     animation: 1.5s fade-bottom;
+    padding: var(--m-spaceTopBott) 0 var(--m-spaceTopBott) 0;
 }
 .approach h2 {
     text-align: center;
@@ -739,7 +741,9 @@ textarea {
     -ms-flex-direction: column;
     flex-direction: column;
     text-align: justify;
-    padding: 20px 70px 20px 70px;
+    /* padding: 20px 70px 20px 70px; */
+
+    padding: var(--m-spaceTopBott) 70px var(--m-spaceTopBott) 70px;
 }
 
 .my-qualification-text p a {
