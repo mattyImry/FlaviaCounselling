@@ -277,7 +277,6 @@ textarea {
     -ms-flex-direction: row;
     flex-direction: row;
     overflow: hidden;
-    margin: var(--m-spaceTopBott) 0 var(--m-spaceTopBott) 0;
 }
 
 .img-value {
@@ -297,10 +296,11 @@ textarea {
 .experties {
     text-align: center;
     background-color: var(--p2-4-color);
+    padding: var(--m-spaceTopBott) 0 var(--m-spaceTopBott) 0;
 }
 
 .experties h1 {
-    padding: 40px 0 40px 0;
+    padding: 20px 0 40px 0;
 }
 
 .experties-icons {
