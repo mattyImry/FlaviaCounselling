@@ -5,3 +5,5 @@ welcome
 hi
 experties
 therapies
+services
+testimonial

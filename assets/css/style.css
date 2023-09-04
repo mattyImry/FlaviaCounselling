@@ -455,6 +455,10 @@ textarea {
 
 /* SERVICES SECTION */
 
+.services {
+    margin: var(--m-spaceTopBott) 0 var(--m-spaceTopBott) 0;
+}
+
 .services h1 {
     text-align: center;
     padding: 20px 0;
@@ -527,6 +531,7 @@ textarea {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    margin: var(--m-spaceTopBott) 0 var(--m-spaceTopBott) 0;
 }
 
 .mySlides {
@@ -538,7 +543,7 @@ textarea {
     text-align: center;
     height: auto;
     line-height: 30px;
-    margin: 0 5% 0 5%;
+    /* margin: 0 5% 0 5%; */
     padding: 3% 5% 5% 5%;
     /* -webkit-box-shadow: 1px 10px 8px 8px rgba(0, 0, 0, 0.3);
     box-shadow: 1px 10px 8px 8px rgba(0, 0, 0, 0.3); */
