@@ -1004,13 +1004,15 @@ textarea::placeholder {
     animation: 1s fade-right ease-in;
 }
 
-/* .consultation-description {
+.consultation-description {
     position: absolute;
     text-align: justify;
+    top: 30%;
+    left: 68%;
     padding: 20px 150px 40px 150px;
     -webkit-animation: 1s fade-bottom;
     animation: 1s fade-bottom;
-} */
+}
 
 .emdr-title2 {
     display: none;
