@@ -1007,15 +1007,15 @@ textarea::placeholder {
     animation: 1s fade-right ease-in;
 }
 
-/* .consultation-description {
+.consultation-description {
     position: absolute;
     text-align: justify;
     top: 30%;
     right: 1%;
-    padding: 20px 80px 40px 80px;
+    padding: 20px 20px 40px 80px;
     -webkit-animation: 1s fade-bottom;
     animation: 1s fade-bottom;
-} */
+}
 
 .emdr-title2 {
     display: none;
@@ -1267,9 +1267,7 @@ PRIVACY PAGE */
         padding: 20px 200px 40px 200px;
     }
     .consultation-description {
-        top: 30%;
-        left: 68%;
-        padding: 20px 70px 40px 70px;
+        padding: 1px 0px 40px 70px;
     }
 }
 
@@ -1285,6 +1283,10 @@ PRIVACY PAGE */
         display: none;
     }
 
+    .consultation-description {
+        padding: 10px 0px 40px 0px;
+    }
+
     .cbt-description,
     .act-description,
     .cft-description,
@@ -1294,6 +1296,10 @@ PRIVACY PAGE */
     .faq-description,
     .supervision-description {
         padding: 20px 150px 40px 150px;
+    }
+
+    .consultation-description p {
+        padding: 10px 0px 0px 0px;
     }
 
     .my-experience-text p,
