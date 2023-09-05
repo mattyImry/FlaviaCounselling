@@ -1721,7 +1721,11 @@ PRIVACY PAGE */
         padding-left: 0;
     }
 
-    .act-container h1,
+    .act-container h1 {
+        top: 0%;
+        right: 3%;
+    }
+
     .cft-container h1,
     .dit-container h1,
     .emdr-container h1,
