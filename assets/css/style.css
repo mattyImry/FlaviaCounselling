@@ -1037,7 +1037,7 @@ textarea::placeholder {
 /* .consultation-description, */
 .supervision-description {
     text-align: left;
-    padding: 20px 150px 40px 150px;
+    padding: 20px 300px 40px 300px;
     -webkit-animation: 1s fade-bottom;
     animation: 1s fade-bottom;
 }
@@ -1049,7 +1049,7 @@ textarea::placeholder {
 .emdr-description h4,
 .online-description h4,
 .consultation-description p {
-    padding: 20px 0 10px 0;
+    padding: 40px 0 10px 0;
 }
 
 .act-img,
@@ -1250,6 +1250,17 @@ PRIVACY PAGE */
     .hi-text h4 {
         padding: 20px 100px 20px 100px;
     }
+
+    .cbt-description,
+    .act-description,
+    .cft-description,
+    .dit-description,
+    .emdr-description,
+    .online-description,
+    /* .consultation-description, */
+    .supervision-description {
+        padding: 20px 200px 40px 200px;
+    }
     .consultation-description {
         top: 30%;
         left: 68%;
@@ -1267,6 +1278,17 @@ PRIVACY PAGE */
     }
     .card {
         display: none;
+    }
+
+    .cbt-description,
+    .act-description,
+    .cft-description,
+    .dit-description,
+    .emdr-description,
+    .online-description,
+    /* .consultation-description, */
+    .supervision-description {
+        padding: 20px 150px 40px 150px;
     }
 
     .my-experience-text p,
