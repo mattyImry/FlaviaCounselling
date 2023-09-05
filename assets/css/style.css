@@ -141,6 +141,7 @@ textarea {
     position: absolute;
     width: 100%;
     padding: 5px;
+    margin: 2px;
     -webkit-box-shadow: 0px 10px 10px 1px rgba(0, 0, 0, 0.4);
     box-shadow: 0px 10px 10px 1px rgba(0, 0, 0, 0.4);
     z-index: 1;
@@ -789,7 +790,7 @@ textarea {
 
 .faq-container h1 {
     position: absolute;
-    top: 10%;
+    top: 8%;
     left: 10%;
     font-size: 42px;
     -webkit-animation: 1s fade-left ease-in;
@@ -800,18 +801,18 @@ textarea {
 }
 
 .faq-description {
-    text-align: justify;
-    padding: 20px 150px 40px 150px;
+    text-align: left;
+    padding: 20px 300px 40px 300px;
     -webkit-animation: 1s fade-bottom;
     animation: 1s fade-bottom;
 }
 
 .faq-description h4 {
-    padding: 20px 0 10px 0;
+    padding: 40px 0 10px 0;
 }
 
 .div-btn-faq {
-    padding: 10px 0 10px 0;
+    padding: 30px 0 10px 0;
 }
 
 /* CONTACT PAGE */
@@ -1251,13 +1252,17 @@ PRIVACY PAGE */
         padding: 20px 100px 20px 100px;
     }
 
+    .faq-container h1 {
+        top: 5%;
+    }
+
     .cbt-description,
     .act-description,
     .cft-description,
     .dit-description,
     .emdr-description,
     .online-description,
-    /* .consultation-description, */
+    .faq-description,
     .supervision-description {
         padding: 20px 200px 40px 200px;
     }
@@ -1286,7 +1291,7 @@ PRIVACY PAGE */
     .dit-description,
     .emdr-description,
     .online-description,
-    /* .consultation-description, */
+    .faq-description,
     .supervision-description {
         padding: 20px 150px 40px 150px;
     }
@@ -1659,6 +1664,10 @@ PRIVACY PAGE */
     .supervision-container h1 {
         font-size: 22px;
     }
+
+    .faq-container h1 {
+        top: 2%;
+    }
     .welcome-text h3,
     .hi-text h4 {
         padding-top: 15px;
@@ -1726,11 +1735,14 @@ PRIVACY PAGE */
         right: 3%;
     }
 
+    .faq-container h1 {
+        top: 1%;
+    }
+
     .cft-container h1,
     .dit-container h1,
     .emdr-container h1,
     .online-container h1,
-    .faq-container h1,
     .contact-title,
     .consultation-title {
         top: 2%;
