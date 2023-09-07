@@ -1009,12 +1009,13 @@ textarea::placeholder {
 
 .consultation-description {
     position: absolute;
-    text-align: justify;
+    text-align: left;
     top: 30%;
     right: 1%;
-    padding: 20px 20px 40px 80px;
+    padding: 20px 20px 20px 80px;
     -webkit-animation: 1s fade-bottom;
     animation: 1s fade-bottom;
+    line-height: 30px;
 }
 
 .emdr-title2 {
@@ -1027,6 +1028,10 @@ textarea::placeholder {
     right: 5%;
     -webkit-animation: 1s fade-right ease-in;
     animation: 1s fade-right ease-in;
+}
+
+.mobile-text-descr {
+    display: none;
 }
 
 .cbt-description,
@@ -1267,7 +1272,10 @@ PRIVACY PAGE */
         padding: 20px 200px 40px 200px;
     }
     .consultation-description {
-        padding: 1px 0px 40px 70px;
+        padding: 10px 0px 20px 70px;
+    }
+    .consultation-description p {
+        padding: 10px 0px 20px 0px;
     }
 }
 
@@ -1283,9 +1291,9 @@ PRIVACY PAGE */
         display: none;
     }
 
-    .consultation-description {
+    /* .consultation-description {
         padding: 10px 0px 40px 0px;
-    }
+    } */
 
     .cbt-description,
     .act-description,
@@ -1298,8 +1306,19 @@ PRIVACY PAGE */
         padding: 20px 150px 40px 150px;
     }
 
-    .consultation-description p {
-        padding: 10px 0px 0px 0px;
+    /* .consultation-description p {
+        padding: 20px 0px 20px 0px;
+    } */
+    .mobile-text-descr {
+        display: block;
+    }
+    .consultation-description {
+        text-align: left;
+        position: relative;
+
+        /* padding: 20px 300px 40px 300px; */
+        -webkit-animation: 1s fade-bottom;
+        animation: 1s fade-bottom;
     }
 
     .my-experience-text p,
