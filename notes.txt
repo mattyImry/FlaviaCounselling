@@ -1,18 +1,6 @@
-Spacing:
 
-check mobile versions for:
-welcome
-hi
-experties
-therapies
-services
-testimonial
-
-ABOUT PAGE
-ABOUT banner
-approach
-.my-experience,
-.qualification
 
 
 new free page use full text for mobile view
+
+2 text for mobile and desk. title and desc more screen centered

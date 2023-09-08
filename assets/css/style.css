@@ -998,8 +998,7 @@ textarea::placeholder {
 }
 
 .cft-container h1,
-.online-container h1,
-.consultation-title {
+.online-container h1 {
     position: absolute;
     top: 10%;
     right: 10%;
@@ -1007,10 +1006,18 @@ textarea::placeholder {
     animation: 1s fade-right ease-in;
 }
 
+/* .consultation-title {
+    position: absolute;
+    top: 10%;
+    right: 8%;
+    -webkit-animation: 1s fade-right ease-in;
+    animation: 1s fade-right ease-in;
+} */
+
 .consultation-description {
     position: absolute;
     text-align: left;
-    top: 30%;
+    top: 15%;
     right: 1%;
     padding: 20px 20px 20px 80px;
     -webkit-animation: 1s fade-bottom;
