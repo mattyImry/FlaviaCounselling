@@ -1014,7 +1014,7 @@ textarea::placeholder {
 .consultation-description {
     position: absolute;
     text-align: left;
-    top: 15%;
+    top: 10%;
     right: 1%;
     padding: 20px 20px 20px 80px;
     -webkit-animation: 1s fade-bottom;
@@ -1045,7 +1045,6 @@ textarea::placeholder {
 .dit-description,
 .emdr-description,
 .online-description,
-/* .consultation-description, */
 .supervision-description {
     text-align: left;
     padding: 20px 300px 40px 300px;
@@ -1282,6 +1281,10 @@ PRIVACY PAGE */
     .consultation-description p {
         padding: 10px 0px 20px 0px;
     }
+
+    .consultation-title{
+        padding-bottom:20px ;
+    }
 }
 
 @media (max-width: 979px) {
@@ -1496,6 +1499,11 @@ PRIVACY PAGE */
         right: 10%;
     }
 
+    .consultation-title {
+        top: -45%;
+        right: 10%;
+    }
+
     .emdr-title1 {
         top: 5%;
         right: 5%;
@@ -1559,7 +1567,13 @@ PRIVACY PAGE */
     .emdr-container h1 {
         right: 5%;
     }
-}
+
+  
+    .consultation-title {
+        top: -30%;
+        right: 10%;
+    }
+
 
 @media (max-width: 604px) {
     .main-text {
@@ -1617,7 +1631,7 @@ PRIVACY PAGE */
     .online-container h1,
     .faq-container h1,
     .contact-title,
-    .consultation-title,
+    
     .supervision-container h1 {
         top: 4%;
         right: 10%;
@@ -1645,6 +1659,11 @@ PRIVACY PAGE */
     .consultation-description,
     .supervision-description {
         padding: 20px 80px 40px 80px;
+    }
+
+    .consultation-title {
+        top: -40%;
+        right: 10%;
     }
 
     .modal {
@@ -1705,9 +1724,15 @@ PRIVACY PAGE */
     .online-container h1,
     .faq-container h1,
     .contact-title,
-    .consultation-title,
+   
     .supervision-container h1 {
         font-size: 22px;
+    }
+
+    .consultation-title {
+        font-size: 22px;
+        top: -30%;
+        right: 5%;
     }
 
     .faq-container h1 {
@@ -1788,10 +1813,14 @@ PRIVACY PAGE */
     .dit-container h1,
     .emdr-container h1,
     .online-container h1,
-    .contact-title,
-    .consultation-title {
+    .contact-title {
         top: 2%;
         right: 3%;
+    }
+
+    .consultation-title {
+        top: -20%;
+        right: 5%;
     }
 
     .cbt-description,
@@ -1862,9 +1891,16 @@ PRIVACY PAGE */
     .emdr-container h1,
     .online-container h1,
     .contact-title,
-    .consultation-title,
+    
     .supervision-container h1 {
         font-size: 18px;
+    }
+
+    
+    .consultation-title {
+        font-size: 18px;
+        top: -15%;
+        right: 5%;
     }
 
     .faq-container h1 {
