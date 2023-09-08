@@ -1006,13 +1006,10 @@ textarea::placeholder {
     animation: 1s fade-right ease-in;
 }
 
-/* .consultation-title {
-    position: absolute;
-    top: 10%;
-    right: 8%;
+.consultation-title {
     -webkit-animation: 1s fade-right ease-in;
     animation: 1s fade-right ease-in;
-} */
+}
 
 .consultation-description {
     position: absolute;
@@ -1037,7 +1034,8 @@ textarea::placeholder {
     animation: 1s fade-right ease-in;
 }
 
-.mobile-text-descr {
+.mobile-text-descr,
+.mobile-consultation-title {
     display: none;
 }
 
@@ -1317,15 +1315,30 @@ PRIVACY PAGE */
         padding: 20px 0px 20px 0px;
     } */
     .mobile-text-descr {
-        display: block;
+        display: inline;
+    }
+
+    .desk-text-descr {
+        display: none;
+    }
+
+    .consultation-title {
+        position: absolute;
+        top: -55%;
+        right: 8%;
+        -webkit-animation: 1s fade-right ease-in;
+        animation: 1s fade-right ease-in;
     }
     .consultation-description {
         text-align: left;
         position: relative;
-
-        /* padding: 20px 300px 40px 300px; */
+        padding: 80px 150px 40px 150px;
         -webkit-animation: 1s fade-bottom;
         animation: 1s fade-bottom;
+    }
+
+    .consultation-btn p {
+        padding-top: 20px;
     }
 
     .my-experience-text p,
