@@ -42,7 +42,6 @@ body {
 
 a {
     text-decoration: none;
-    /* color: var(--link-color, #fff); */
     color: black;
 }
 
@@ -76,7 +75,7 @@ textarea {
 }
 
 .nav-links a {
-    /* color: var(--link-color, #fff); */
+    
     color: black;
     font-weight: 500;
     text-decoration: none;
@@ -378,7 +377,6 @@ textarea {
 
 .therapies-text {
     text-align: center;
-    /* padding: 20px 0 40px; */
     padding: var(--m-spaceTopBott) 0 120px 0;
 }
 
@@ -544,10 +542,6 @@ textarea {
     text-align: center;
     height: auto;
     line-height: 30px;
-    /* margin: 0 5% 0 5%; */
-    /* padding: 3% 5% 5% 5%; */
-    /* -webkit-box-shadow: 1px 10px 8px 8px rgba(0, 0, 0, 0.3);
-    box-shadow: 1px 10px 8px 8px rgba(0, 0, 0, 0.3); */
     font-family: var(--first-font, sans-serif);
 }
 
@@ -1081,12 +1075,6 @@ textarea::placeholder {
     padding-top: 20px;
 }
 
-/* .btn-services.consultation {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-} */
-
 /* TERMS PAGE
 PRIVACY PAGE */
 
@@ -1299,10 +1287,6 @@ PRIVACY PAGE */
         display: none;
     }
 
-    /* .consultation-description {
-        padding: 10px 0px 40px 0px;
-    } */
-
     .cbt-description,
     .act-description,
     .cft-description,
@@ -1314,9 +1298,6 @@ PRIVACY PAGE */
         padding: 20px 150px 40px 150px;
     }
 
-    /* .consultation-description p {
-        padding: 20px 0px 20px 0px;
-    } */
     .mobile-text-descr {
         display: inline;
     }
@@ -1341,7 +1322,7 @@ PRIVACY PAGE */
     }
 
     .consultation-btn p {
-        padding-top: 20px;
+        padding-top: 40px;
     }
 
     .my-experience-text p,
@@ -1518,7 +1499,6 @@ PRIVACY PAGE */
     .faq-description,
     .term-content,
     .privacy-content,
-    /* .consultation-description, */
     .supervision-description {
         padding: 20px 100px 40px 100px;
     }
