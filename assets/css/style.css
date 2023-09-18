@@ -1172,6 +1172,10 @@ PRIVACY PAGE */
     gap: 1em;
 }
 
+.link-footer {
+    padding: 20px;
+}
+
 .link-footer ul {
     display: -webkit-box;
     display: -ms-flexbox;
