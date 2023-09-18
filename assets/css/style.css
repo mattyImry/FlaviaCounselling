@@ -75,7 +75,6 @@ textarea {
 }
 
 .nav-links a {
-    
     color: black;
     font-weight: 500;
     text-decoration: none;
@@ -203,7 +202,7 @@ textarea {
     font-size: 50px;
     font-family: var(--second-font, sans-serif);
     font-weight: 300;
-    -webkit-animation: 1.5s slide-right;
+    /* -webkit-animation: 1.5s slide-right; */
     animation: 1.5s slide-right;
 }
 
@@ -223,8 +222,8 @@ textarea {
 .welcome-text h1 {
     text-align: center;
     line-height: 40px;
-    -webkit-animation: 1.5s slide-left;
-    animation: 1.5s slide-left;
+    -webkit-animation: 1.5s slide-right;
+    animation: 1.5s slide-right;
 }
 
 .welcome-text h4 {
@@ -1270,8 +1269,8 @@ PRIVACY PAGE */
         padding: 10px 0px 20px 0px;
     }
 
-    .consultation-title{
-        padding-bottom:20px ;
+    .consultation-title {
+        padding-bottom: 20px;
     }
 }
 
@@ -1548,12 +1547,11 @@ PRIVACY PAGE */
         right: 5%;
     }
 
-  
     .consultation-title {
         top: -30%;
         right: 10%;
     }
-
+}
 
 @media (max-width: 604px) {
     .main-text {
@@ -1611,7 +1609,6 @@ PRIVACY PAGE */
     .online-container h1,
     .faq-container h1,
     .contact-title,
-    
     .supervision-container h1 {
         top: 4%;
         right: 10%;
@@ -1704,7 +1701,6 @@ PRIVACY PAGE */
     .online-container h1,
     .faq-container h1,
     .contact-title,
-   
     .supervision-container h1 {
         font-size: 22px;
     }
@@ -1871,12 +1867,10 @@ PRIVACY PAGE */
     .emdr-container h1,
     .online-container h1,
     .contact-title,
-    
     .supervision-container h1 {
         font-size: 18px;
     }
 
-    
     .consultation-title {
         font-size: 18px;
         top: -15%;
@@ -1928,7 +1922,7 @@ PRIVACY PAGE */
 
 @-webkit-keyframes slide-right {
     from {
-        margin-left: -100%;
+        margin-left: 100%;
     }
     to {
         margin-left: 0%;
