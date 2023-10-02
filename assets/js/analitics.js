@@ -1,6 +1,7 @@
 
 window.addEventListener("load", function () {
     window.cookieconsent.initialise({
+        
         revokeBtn: "<div class='cc-revoke'></div>",
         type: "opt-in",
         position: "top",
@@ -27,6 +28,7 @@ window.addEventListener("load", function () {
             if (this.hasConsented()) myScripts();
         },
     });
+    
 });
 
 function myScripts() {
